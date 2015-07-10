@@ -1,0 +1,4 @@
+networkservicehandler/taskservicehandler/userservicehandler 
+qt  error in make
+
+
