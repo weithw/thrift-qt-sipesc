@@ -10,8 +10,8 @@ void  TaskParser::parse(Task *task) throw(SipescException){
 
 
     QString taskCommand = QString::fromUtf8(task->rawCommand.data());
-
-    emit  updateStatus( "start to parse command:" + taskCommand);
+    std::cout << "[in server/TaskParser.cpp:parse]" << std::endl;
+    emit  updateStatus( "start to parse command:" + taskCommand + "[in server/TaskParser.cpp]");
 
 
 

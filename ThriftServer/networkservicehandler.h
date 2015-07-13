@@ -120,7 +120,7 @@ public:
       void postTask( ::org::ssdut::sipesc::network::types::CallResult& _return, const std::string& authenticationToken, const std::string& rawCommand) {
         // Your implementation goes here
         printf("postTask\n");
-
+        printf("[in networkservicehandler.h]\n"); //debug
 
         qDebug()<<"before post task in thread:"<<QThread::currentThreadId();
 
