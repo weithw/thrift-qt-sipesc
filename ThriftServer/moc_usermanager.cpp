@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'usermanager.h'
 **
-** Created: Fri Jul 10 09:21:45 2015
+** Created: Tue Jul 14 11:57:09 2015
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

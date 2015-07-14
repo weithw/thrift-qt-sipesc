@@ -17,7 +17,7 @@ TaskManager::~TaskManager(){
 
 
 ID TaskManager::addTask(ID userId, std::string rawCommand){
-
+    cout << "[user.id:" <<  userId << "]" << " [rawCommand: " << rawCommand << "] [in taskmanager.cpp:addTask()]" << endl;
      qDebug() << tr("add task:")<<QThread::currentThreadId();
 
     Task*  task = new Task;
@@ -25,6 +25,9 @@ ID TaskManager::addTask(ID userId, std::string rawCommand){
     task->rawCommand = rawCommand;
     task->userId = userId;
     nextTaskId++;
+
+    cout << "Task Info: " << task->taskId << " " << task->rawCommand << " " << task->userId << " [in taskmanager.cpp:addTask()]" << endl;//debug
+    cout << "Task Info: " << *task << "[in taskmanager.cpp:addTask()]" << endl;//debug
 
     time_t now;
     time(&now);

@@ -120,7 +120,7 @@ public:
       void postTask( ::org::ssdut::sipesc::network::types::CallResult& _return, const std::string& authenticationToken, const std::string& rawCommand) {
         // Your implementation goes here
         printf("postTask\n");
-        printf("[in networkservicehandler.h branch ghw test]\n"); //debug
+        printf("[in networkservicehandler.h]\n"); //debug
 
         qDebug()<<"before post task in thread:"<<QThread::currentThreadId();
 
@@ -131,9 +131,11 @@ public:
 //            ex.errorCode = SipescErrorCode::INVALID_AUTH;
 //            throw ex;
 //        }
-
+        cout << "[user.id:" <<  user.id << "]" << " [rawCommand: " << rawCommand << "] [in networkservicehandler.h:postTsk()]" << endl;
         //调用任务管理器
-        int32_t taskId = TaskManagerHelper::getTaskManager()->addTask(user.id,rawCommand);
+
+        //set userid to 5
+        int32_t taskId = TaskManagerHelper::getTaskManager()->addTask(5/*user.id*/,rawCommand);
 
         _return.resultCode = ResultCode::Success;
 
