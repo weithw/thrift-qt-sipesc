@@ -28,8 +28,8 @@ int test() {
     pmanager.loadPlugin(path);
     QStringList fonts = pmanager.getLoadedPluginList();
 
-    for (int i = 0; i < fonts.size(); ++i)
-          std::cout << fonts.at(i).toLocal8Bit().constData() <<std::endl;
+    // for (int i = 0; i < fonts.size(); ++i)
+    //       std::cout << fonts.at(i).toLocal8Bit().constData() <<std::endl;
 
     // //
     MExtensionManager extManager = MExtensionManager::getManager();
@@ -59,6 +59,8 @@ int test() {
 
     extManager.cleanup();
     MPluginManager::cleanup();
+    sleep(10);
+
     return 0;
 }
 TaskParser::TaskParser(QObject *parent) :
@@ -68,7 +70,7 @@ TaskParser::TaskParser(QObject *parent) :
 
 
 void  TaskParser::parse(Task *task) throw(SipescException){
-
+    task->status = TaskStatus::RUNNING;
 
     QString taskCommand = QString::fromUtf8(task->rawCommand.data());
     std::cout << "start to parse command:" << task->rawCommand << " [in server/TaskParser.cpp:parse()]" << std::endl;
@@ -92,8 +94,9 @@ void  TaskParser::parse(Task *task) throw(SipescException){
     }else if(taskCommand.compare("call",Qt::CaseInsensitive)==0){
         //ghw test
 
-
+        std::cout << "before task" << task->taskId << std::endl;
         test();
+        std::cout << "after task" << task->taskId << std::endl;
 
 
 

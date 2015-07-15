@@ -65,10 +65,11 @@ void TaskManager::distributeTask(ID taskId){
 
     //查找可用线程
     WorkerThread * thread = mWorkThreadPool.findAvaiableTcpThread();
-
+    std::cout << "ThreadPool Current Size is : " << mWorkThreadPool.getThreadSize() << ".  Max Size is: "<< mWorkThreadPool.getMaxThreadSize() << endl;
     if(thread == NULL){
         if(mWorkThreadPool.getThreadSize()>=mWorkThreadPool.getMaxThreadSize()){
-             qDebug() << tr("Error: No avaiable thread for use. The thread pool is full, and size is:")<<mWorkThreadPool.getThreadSize();
+            cout << "Error: No avaiable thread for use. The thread pool is full, and size is:"<<mWorkThreadPool.getThreadSize() << endl;
+             // qDebug() << tr("Error: No avaiable thread for use. The thread pool is full, and size is:")<<mWorkThreadPool.getThreadSize();
              return;
         }
         else{
@@ -81,7 +82,8 @@ void TaskManager::distributeTask(ID taskId){
                 mWorkThreadPool.addNewWorkThread(thread);
             }
             else{
-                qDebug() << tr("Error: No avaiable thread for use, fail to add new thread.");
+                cout << "Error: No avaiable thread for use, fail to add new thread." << endl;
+                // qDebug() << tr("Error: No avaiable thread for use, fail to add new thread.");
                 return;
             }
         }

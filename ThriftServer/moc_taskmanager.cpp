@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'taskmanager.h'
 **
-** Created: Tue Jul 14 11:57:10 2015
+** Created: Wed Jul 15 11:16:16 2015
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

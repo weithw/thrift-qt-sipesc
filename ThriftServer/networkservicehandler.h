@@ -119,10 +119,10 @@ public:
        */
       void postTask( ::org::ssdut::sipesc::network::types::CallResult& _return, const std::string& authenticationToken, const std::string& rawCommand) {
         // Your implementation goes here
-        printf("postTask\n");
-        printf("[in networkservicehandler.h]\n"); //debug
-
-        qDebug()<<"before post task in thread:"<<QThread::currentThreadId();
+        cout << "postTask[in networkservicehandler.h]" << endl;
+        // qDebug() << "postTask[in networkservicehandler.h]" << endl;
+        cout <<"before post task in thread:"<<QThread::currentThreadId() << endl;
+        // qDebug()<<"before post task in thread:"<<QThread::currentThreadId();
 
         User user =  UserManagerHelper::getUserManager()->getUserByToken(authenticationToken);
 
@@ -141,7 +141,8 @@ public:
 
         _return.i32Result = taskId;
 
-         qDebug()<<"after post task in thread:"<<QThread::currentThreadId();
+        cout << "after post task in thread:" << QThread::currentThreadId() << endl;
+         // qDebug()<<"after post task in thread:"<<QThread::currentThreadId();
 
       }
 
