@@ -1,5 +1,6 @@
 #include "taskmanager.h"
 #include "time.h"
+
 TaskManager::TaskManager(QObject *parent) :
     QObject(parent),mWorkThreadPool(20)
 {
@@ -97,7 +98,7 @@ void TaskManager::distributeTask(ID taskId){
 
 void TaskManager::onTaskDone(ID id){
 
-
+    std::cout << "[in taskmanager.cpp:onTaskDone()]" << std::endl;
     qDebug() << tr("The task done:")<<id;
 
      QList<Task *> allTasks = tasks.values();
@@ -106,6 +107,7 @@ void TaskManager::onTaskDone(ID id){
      foreach(Task* task, allTasks)
      {
          if(task->status == TaskStatus::WAITTING){
+            std::cout << "Find next task from waiting to distribute..[in taskmanager.cpp:onTaskDone()]" << std::endl;
              qDebug() << tr("Find next task from waiting to distribute..");
              distributeTask(task->taskId);
              find = true;
@@ -114,6 +116,7 @@ void TaskManager::onTaskDone(ID id){
      }
 
      if(!find){
+        std::cout << "No more task to distribute..[in taskmanager.cpp:onTaskDone()]" << std::endl;
          qDebug() << tr("No more task to distribute..");
      }
 

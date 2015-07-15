@@ -13,16 +13,27 @@ using namespace org::ssdut::plugin::helloworld::feature;
 
 
 int test() {
+    std::cout << "in test()!!!" << std::endl;
     MPluginManager::initialize(false);
 
+    // if (pmanager.isNull()){
+        // MPluginManager pmanager;
+        // pmanager = MPluginManager::getManager();
+        // pmanager.loadAllPlugins();
+    // }
     MPluginManager pmanager = MPluginManager::getManager();
-    //Q_ASSERT(!pmanager.isNull());
-    bool ok = pmanager.loadAllPlugins();
-    Q_ASSERT(ok);
+    // pmanager.loadAllPlugins();
 
-    //
+    QString path = "/home/ghw/.sipesc/lib/plugins/debug/org.ssdut.plugin.helloworld_1.0.0.sep";
+    pmanager.loadPlugin(path);
+    QStringList fonts = pmanager.getLoadedPluginList();
+
+    for (int i = 0; i < fonts.size(); ++i)
+          std::cout << fonts.at(i).toLocal8Bit().constData() <<std::endl;
+
+    // //
     MExtensionManager extManager = MExtensionManager::getManager();
-    //Q_ASSERT(!extManager.isNull());
+    Q_ASSERT(!extManager.isNull());
 
     QString name = "org.ssdut.plugin.helloworld.feature.MessageProvider";
     MessageProvider provider = extManager.createExtension(name);
@@ -45,6 +56,9 @@ int test() {
     }
 
     receiver.showMessage(provider.getMessage());
+
+    extManager.cleanup();
+    MPluginManager::cleanup();
     return 0;
 }
 TaskParser::TaskParser(QObject *parent) :
@@ -76,24 +90,11 @@ void  TaskParser::parse(Task *task) throw(SipescException){
 
 
     }else if(taskCommand.compare("call",Qt::CaseInsensitive)==0){
-
         //ghw test
 
-        // pid_t pid;  
-        // pid = fork();  
-        // // son process create here, exact copy from parent process  
-        // // son process will execute the main funciton after parent process  
-        // if(pid<0) {  
-        //     return;  
-        // }  
-        // if(pid==0) {  
-        //     int ret;
-        //     ret =execl("./helloworld", "hello", NULL);
-        // }else {  
-        //     ;
-        // }  
-        
+
         test();
+
 
 
     }else{
