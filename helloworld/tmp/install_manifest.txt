@@ -1,5 +1,0 @@
-/home/ghw/.sipesc/lib/plugins/debug/org.ssdut.plugin.helloworld_1.0.0.sep
-/home/ghw/.sipesc/include/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h
-/home/ghw/.sipesc/include/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h
-/home/ghw/.sipesc/share/translations/zh_CN/org.ssdut.plugin.helloworld_zh_CN.qm
-/home/ghw/.sipesc/share/features/org.ssdut.plugin.helloworld.features

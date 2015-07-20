@@ -1,5 +1,0 @@
-<RCC>
-  <qresource prefix="sipesc/images/org.ssdut.plugin.helloworld">
-    <file>provider-icon.png</file>
-  </qresource>
-</RCC>

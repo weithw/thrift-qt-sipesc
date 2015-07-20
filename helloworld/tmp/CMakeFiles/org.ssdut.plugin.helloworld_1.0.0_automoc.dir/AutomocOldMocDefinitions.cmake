@@ -1,1 +1,0 @@
-set(AM_OLD_COMPILE_SETTINGS ";QT_CORE_LIB ~~~ /usr/include/qt4;/usr/include/qt4/QtCore;/home/ghw/project/helloworld/tmp;/home/ghw/project/helloworld/inc;/home/ghw/project/helloworld/../plugin;/usr/include/sipesc/extmgr-core;/usr/include/sipesc/plugin ~~~  ~~~ FALSE ~~~ ")

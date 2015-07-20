@@ -1,1 +1,0 @@
-/home/ghw/project/helloworld/test/tmp/CMakeFiles/main.dir

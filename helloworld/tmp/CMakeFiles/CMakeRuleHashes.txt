@@ -1,8 +1,0 @@
-# Hashes of file build rules.
-8db197f8a8fbbcadb4b3ff9cf8d6a5a2 CMakeFiles/org.ssdut.plugin.helloworld_1.0.0_automoc
-a903d238a93e52ff33016ffd895ddf8f org.ssdut.plugin.helloworld.features
-6d26b085726198b71c0c009915073b17 org.ssdut.plugin.helloworld.xml.cxx
-1800868157a804c4f610447d3b43f615 org.ssdut.plugin.helloworld_zh_CN_qm.stamp
-fd18cefde12259b943df266986c0177e org.ssdut.plugin.helloworld_zh_CN_ts.stamp
-d5bba8dfea92262760ec1645f65f42e6 plugin/org.ssdut.plugin.helloworld.stamp
-b0e4fc675bc406b5e05b0f2432d932e0 qrc_org.ssdut.plugin.helloworld.cxx
