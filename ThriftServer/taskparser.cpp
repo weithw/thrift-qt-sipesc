@@ -16,13 +16,7 @@ int test() {
     std::cout << "in test()!!!" << std::endl;
     MPluginManager::initialize(false);
 
-    // if (pmanager.isNull()){
-        // MPluginManager pmanager;
-        // pmanager = MPluginManager::getManager();
-        // pmanager.loadAllPlugins();
-    // }
     MPluginManager pmanager = MPluginManager::getManager();
-    // pmanager.loadAllPlugins();
 
     QString path = "/home/ghw/.sipesc/lib/plugins/debug/org.ssdut.plugin.helloworld_1.0.0.sep";
     pmanager.loadPlugin(path);
@@ -42,9 +36,7 @@ int test() {
     MessageReceiver receiver = extManager.createExtension(name);
 
     if(provider.isNull() || receiver.isNull()){
-      printf("Error: Can not create extensions.\n");
-
-
+        printf("Error: Can not create extensions.\n");
         MErrorManager manager=MErrorManager::getManager();
         int count=manager.getErrorCount();
         for(int i=0; i<count; i++)
@@ -55,7 +47,7 @@ int test() {
       return 0;
     }
 
-    receiver.showMessage("asadas");
+    receiver.showMessage("test message");
 
     extManager.cleanup();
     MPluginManager::cleanup();
@@ -78,6 +70,10 @@ void  TaskParser::parse(Task *task) throw(SipescException){
 
    //在这里写下对命令的解释，和, 我下面给出的是示例。你需要完整解析
 
+    QStringList strlist = taskCommand.split(" ");
+    QString str1 = strlist.at(0).toLocal8Bit().data();
+    QString str2 = strlist.at(1).toLocal8Bit().data();
+
     if(taskCommand.compare("helloworld",Qt::CaseInsensitive)==0){
 
 
@@ -89,9 +85,9 @@ void  TaskParser::parse(Task *task) throw(SipescException){
 
 
 
-    }else if(taskCommand.compare("call",Qt::CaseInsensitive)==0){
+    }else if(str1.compare("call",Qt::CaseInsensitive)==0){
         //ghw test
-
+        std::cout << "plugin name: " << str2.toLatin1().data() << std::endl;
         std::cout << "before task" << task->taskId << std::endl;
         test();
         std::cout << "after task" << task->taskId << std::endl;
