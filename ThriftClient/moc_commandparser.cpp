@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'commandparser.h'
 **
-** Created: Thu Jul 9 09:59:32 2015
+** Created: Thu Jul 16 11:04:22 2015
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

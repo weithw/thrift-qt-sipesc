@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin spec="2.0" name="org.ssdut.plugin.helloworld" version="1.0.0" label="Hello World" author="xiaodong" copyright="All rights reserved by Xiaodong" description="This is example plugin developed by xiaodong.">
+  <feature name="org.ssdut.plugin.helloworld.feature" version="1.0.0" label="Feature Example" description="This is the namespace.">
+    <extension name="MessageProvider" uuid="{a54638cd-319a-40e0-91ac-fcb90fc21a37}" creatable="true" scriptable="true" description="MessageProvider is used to provide message." category="org.ssdut.plugin.helloworld.feature.category">
+      <attributes>
+        <attribute name="message" type="QString" default="QString()" description="=Helloworld message attribute&#10;This attribute holds the message to provide." readonly="true" scriptable="true"/>
+      </attributes>
+    </extension>
+    <extension name="MessageReceiver" uuid="{c7ac15b5-31f7-40c1-b334-e60fc4657a5a}" creatable="true" scriptable="true" description="It is used to show messages." category="org.ssdut.plugin.helloworld.feature.category">
+      <methods>
+        <method name="showMessage" access="const" scriptable="true" description="show a messages.">
+          <parameter name="message" type="QString" access="const reference" description="The message to show"/>
+        </method>
+      </methods>
+    </extension>
+  </feature>
+</plugin>

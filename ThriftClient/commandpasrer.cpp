@@ -38,7 +38,7 @@ void CommandParser::parse(QString rawCommand){
 
         //调用获取指定任务接口。
 
-    }else if(rawCommand.compare("call",Qt::CaseInsensitive)==0){
+    }else if(rawCommand.contains("call")){
         //调用服务器的提交命令接口。
 
       CallResult result;

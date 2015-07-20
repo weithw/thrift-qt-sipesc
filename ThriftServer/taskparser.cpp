@@ -11,7 +11,7 @@
 using namespace org::ssdut::plugin::helloworld::feature;
 
 
-
+//
 int test() {
     std::cout << "in test()!!!" << std::endl;
     MPluginManager::initialize(false);
@@ -55,12 +55,10 @@ int test() {
       return 0;
     }
 
-    receiver.showMessage(provider.getMessage());
+    receiver.showMessage("asadas");
 
     extManager.cleanup();
     MPluginManager::cleanup();
-    sleep(10);
-
     return 0;
 }
 TaskParser::TaskParser(QObject *parent) :

@@ -137,11 +137,12 @@ public:
         //set userid to 5
         int32_t taskId = TaskManagerHelper::getTaskManager()->addTask(5/*user.id*/,rawCommand);
 
+        _return.message = "task post ok";
         _return.resultCode = ResultCode::Success;
 
         _return.i32Result = taskId;
 
-        cout << "after post task in thread:" << QThread::currentThreadId() << endl;
+        cout << "after post task[" << _return.i32Result<< "] in thread:" << QThread::currentThreadId() << endl;
          // qDebug()<<"after post task in thread:"<<QThread::currentThreadId();
 
       }
