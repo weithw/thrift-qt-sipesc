@@ -1,0 +1,1 @@
+set(AM_OLD_COMPILE_SETTINGS ";QT_CORE_LIB ~~~ /usr/include/qt4;/usr/include/qt4/QtCore;/home/ghw/project/thrift-qt-sipesc/helloworld/tmp;/home/ghw/project/thrift-qt-sipesc/helloworld/inc;/home/ghw/project/thrift-qt-sipesc/helloworld/tmp/../plugin;/usr/include/sipesc/extmgr-core;/usr/include/sipesc/plugin ~~~  ~~~ FALSE ~~~ ")

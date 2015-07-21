@@ -119,10 +119,8 @@ public:
        */
       void postTask( ::org::ssdut::sipesc::network::types::CallResult& _return, const std::string& authenticationToken, const std::string& rawCommand) {
         // Your implementation goes here
-        cout << "postTask[in networkservicehandler.h]" << endl;
-        // qDebug() << "postTask[in networkservicehandler.h]" << endl;
-        cout <<"before post task in thread:"<<QThread::currentThreadId() << endl;
-        // qDebug()<<"before post task in thread:"<<QThread::currentThreadId();
+        qDebug() << "postTask[in networkservicehandler.h]" << endl;
+        qDebug()<<"before post task in thread:"<<QThread::currentThreadId();
 
         User user =  UserManagerHelper::getUserManager()->getUserByToken(authenticationToken);
 
@@ -131,7 +129,7 @@ public:
 //            ex.errorCode = SipescErrorCode::INVALID_AUTH;
 //            throw ex;
 //        }
-        cout << "[user.id:" <<  user.id << "]" << " [rawCommand: " << rawCommand << "] [in networkservicehandler.h:postTsk()]" << endl;
+        // cout << "[user.id:" <<  user.id << "]" << " [rawCommand: " << rawCommand << "] [in networkservicehandler.h:postTsk()]" << endl;
         //调用任务管理器
 
         //set userid to 5
@@ -142,7 +140,7 @@ public:
 
         _return.i32Result = taskId;
 
-        cout << "after post task[" << _return.i32Result<< "] in thread:" << QThread::currentThreadId() << endl;
+        // cout << "after post task[" << _return.i32Result<< "] in thread:" << QThread::currentThreadId() << endl;
          // qDebug()<<"after post task in thread:"<<QThread::currentThreadId();
 
       }

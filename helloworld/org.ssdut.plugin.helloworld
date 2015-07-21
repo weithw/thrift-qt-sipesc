@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin spec="2.0" name="org.ssdut.plugin.helloworld" version="1.0.0" author="ghw">
+  <feature name="org.ssdut.plugin.helloworld.feature" version="1.0.0">
+    <extension name="MessageProvider" uuid="{fc1ffa20-bb92-4a9b-9c4b-85671179b33e}" creatable="true" scriptable="true" category="org.ssdut.plugin.helloworld.feature.category">
+      <attributes>
+        <attribute name="message" type="QString" default="QString()" readonly="true" scriptable="true"/>
+      </attributes>
+    </extension>
+    <extension name="MessageReceiver" uuid="{b3c8eee1-dd1d-422e-9b69-eb2896736ea6}" creatable="true" scriptable="true" category="org.ssdut.plugin.helloworld.feature.category">
+      <methods>
+        <method name="showMessage" access="const" scriptable="true">
+          <parameter name="message" type="QString" access="const reference"/>
+        </method>
+      </methods>
+    </extension>
+  </feature>
+</plugin>

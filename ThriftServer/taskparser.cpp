@@ -8,12 +8,14 @@
 #include <iostream>
 #include <org.ssdut.plugin.helloworld.feature.messageprovider.h>
 #include <org.ssdut.plugin.helloworld.feature.messagereceiver.h>
+#include <string>
 using namespace org::ssdut::plugin::helloworld::feature;
+using namespace std;
 
 
 //
-int test() {
-    std::cout << "in test()!!!" << std::endl;
+int call_helloworld(QString& command) {
+    cout << "in call_helloworld()!!!" << " para:" << command.toLatin1().data() << endl;
     MPluginManager::initialize(false);
 
     MPluginManager pmanager = MPluginManager::getManager();
@@ -25,7 +27,7 @@ int test() {
     // for (int i = 0; i < fonts.size(); ++i)
     //       std::cout << fonts.at(i).toLocal8Bit().constData() <<std::endl;
 
-    // //
+    //
     MExtensionManager extManager = MExtensionManager::getManager();
     Q_ASSERT(!extManager.isNull());
 
@@ -47,7 +49,7 @@ int test() {
       return 0;
     }
 
-    receiver.showMessage("test message");
+    receiver.showMessage("123");
 
     extManager.cleanup();
     MPluginManager::cleanup();
@@ -63,50 +65,63 @@ void  TaskParser::parse(Task *task) throw(SipescException){
     task->status = TaskStatus::RUNNING;
 
     QString taskCommand = QString::fromUtf8(task->rawCommand.data());
-    std::cout << "start to parse command:" << task->rawCommand << " [in server/TaskParser.cpp:parse()]" << std::endl;
+    cout << "start to parse command:" << task->rawCommand << " [in server/TaskParser.cpp:parse()]" << endl;
     emit  updateStatus( "start to parse command:" + taskCommand + "[in server/TaskParser.cpp:parse()]");
 
 
 
-   //在这里写下对命令的解释，和, 我下面给出的是示例。你需要完整解析
+   //在这里写下对命令的解释, 我下面给出的是示例。你需要完整解析
 
-    QStringList strlist = taskCommand.split(" ");
-    QString str1 = strlist.at(0).toLocal8Bit().data();
-    QString str2 = strlist.at(1).toLocal8Bit().data();
+    QStringList strlist = taskCommand.trimmed().split(" ");
+    if (strlist.length() >= 2) {
+        QString is_call = strlist.at(0).toLocal8Bit().data();
+        QString plugin_name = strlist.at(1).toLocal8Bit().data();
 
-    if(taskCommand.compare("helloworld",Qt::CaseInsensitive)==0){
+        //get the parameter
+        QString command_para = taskCommand.trimmed().mid(is_call.length()).trimmed().mid(plugin_name.length()).trimmed();
+        if(is_call.compare("call",Qt::CaseInsensitive)==0){
+            cout << "plugin name: " << plugin_name.toLatin1().data() << endl;
+            if(plugin_name.compare("helloworld",Qt::CaseInsensitive)==0){
+                call_helloworld(command_para);
+
+            }else if(plugin_name.compare("plugin2",Qt::CaseInsensitive)==0){
 
 
-
-    }else if(taskCommand.compare("plugin2",Qt::CaseInsensitive)==0){
-
-
-    }else if(taskCommand.compare("plugin3",Qt::CaseInsensitive)==0){
-
-
-
-    }else if(str1.compare("call",Qt::CaseInsensitive)==0){
-        //ghw test
-        std::cout << "plugin name: " << str2.toLatin1().data() << std::endl;
-        std::cout << "before task" << task->taskId << std::endl;
-        test();
-        std::cout << "after task" << task->taskId << std::endl;
+            }else if(plugin_name.compare("plugin3",Qt::CaseInsensitive)==0){
 
 
 
-    }else{
-        QString useage("Usage: xxxxxxxxxxxxx.....xxx...\n");
-            emit  updateStatus(useage);
+            }else {
+                QString err_info("No such plugin.");
+                emit  updateStatus(err_info);
+                SipescException ex;
+                ex.errorCode = SipescErrorCode::UNSUPPORTED_OPERATION;
+                ex.why = err_info.toStdString();
+                task->status = TaskStatus::ERROR;
+                throw ex;
+            }
+            
+        }else{
+            QString useage("Usage: xxxxxxxxxxxxx.....xxx...\n");
+                emit  updateStatus(useage);
+            SipescException ex;
+            ex.errorCode = SipescErrorCode::UNSUPPORTED_OPERATION;
+            ex.why = useage.toStdString();
+
+
+            task->status = TaskStatus::ERROR;
+
+            throw ex;
+        }
+    } else {
+        QString err_info("Too few arguments.");
+        emit  updateStatus(err_info);
         SipescException ex;
         ex.errorCode = SipescErrorCode::UNSUPPORTED_OPERATION;
-        ex.why = useage.toStdString();
-
-
+        ex.why = err_info.toStdString();
         task->status = TaskStatus::ERROR;
-
         throw ex;
     }
-
 
     task->status = TaskStatus::SUCC;
 

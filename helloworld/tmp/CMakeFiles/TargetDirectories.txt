@@ -1,0 +1,2 @@
+/home/ghw/project/thrift-qt-sipesc/helloworld/tmp/CMakeFiles/org.ssdut.plugin.helloworld_1.0.0.dir
+/home/ghw/project/thrift-qt-sipesc/helloworld/tmp/CMakeFiles/org.ssdut.plugin.helloworld_1.0.0_automoc.dir
