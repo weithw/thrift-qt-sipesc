@@ -30,6 +30,14 @@ class NetworkServiceIf {
   virtual void login( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& username, const std::string& password) = 0;
 
   /**
+   * 注册
+   * 
+   * @param newUser
+   * @param password
+   */
+  virtual bool regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password) = 0;
+
+  /**
    * 退出登录
    * 
    * @param authenticationToken
@@ -139,6 +147,10 @@ class NetworkServiceNull : virtual public NetworkServiceIf {
   }
   void login( ::org::ssdut::sipesc::network::types::AuthenticationResult& /* _return */, const std::string& /* username */, const std::string& /* password */) {
     return;
+  }
+  bool regist(const  ::org::ssdut::sipesc::network::types::User& /* newUser */, const std::string& /* password */) {
+    bool _return = false;
+    return _return;
   }
   void logout(const std::string& /* authenticationToken */) {
     return;
@@ -414,6 +426,133 @@ class NetworkService_login_presult {
   uint32_t read(::apache::thrift::protocol::TProtocol* iprot);
 
   friend std::ostream& operator<<(std::ostream& out, const NetworkService_login_presult& obj);
+};
+
+typedef struct _NetworkService_regist_args__isset {
+  _NetworkService_regist_args__isset() : newUser(false), password(false) {}
+  bool newUser :1;
+  bool password :1;
+} _NetworkService_regist_args__isset;
+
+class NetworkService_regist_args {
+ public:
+
+  static const char* ascii_fingerprint; // = "04C87A0F726CE190775EC0B321806BB4";
+  static const uint8_t binary_fingerprint[16]; // = {0x04,0xC8,0x7A,0x0F,0x72,0x6C,0xE1,0x90,0x77,0x5E,0xC0,0xB3,0x21,0x80,0x6B,0xB4};
+
+  NetworkService_regist_args(const NetworkService_regist_args&);
+  NetworkService_regist_args& operator=(const NetworkService_regist_args&);
+  NetworkService_regist_args() : password() {
+  }
+
+  virtual ~NetworkService_regist_args() throw();
+   ::org::ssdut::sipesc::network::types::User newUser;
+  std::string password;
+
+  _NetworkService_regist_args__isset __isset;
+
+  void __set_newUser(const  ::org::ssdut::sipesc::network::types::User& val);
+
+  void __set_password(const std::string& val);
+
+  bool operator == (const NetworkService_regist_args & rhs) const
+  {
+    if (!(newUser == rhs.newUser))
+      return false;
+    if (!(password == rhs.password))
+      return false;
+    return true;
+  }
+  bool operator != (const NetworkService_regist_args &rhs) const {
+    return !(*this == rhs);
+  }
+
+  bool operator < (const NetworkService_regist_args & ) const;
+
+  uint32_t read(::apache::thrift::protocol::TProtocol* iprot);
+  uint32_t write(::apache::thrift::protocol::TProtocol* oprot) const;
+
+  friend std::ostream& operator<<(std::ostream& out, const NetworkService_regist_args& obj);
+};
+
+
+class NetworkService_regist_pargs {
+ public:
+
+  static const char* ascii_fingerprint; // = "04C87A0F726CE190775EC0B321806BB4";
+  static const uint8_t binary_fingerprint[16]; // = {0x04,0xC8,0x7A,0x0F,0x72,0x6C,0xE1,0x90,0x77,0x5E,0xC0,0xB3,0x21,0x80,0x6B,0xB4};
+
+
+  virtual ~NetworkService_regist_pargs() throw();
+  const  ::org::ssdut::sipesc::network::types::User* newUser;
+  const std::string* password;
+
+  uint32_t write(::apache::thrift::protocol::TProtocol* oprot) const;
+
+  friend std::ostream& operator<<(std::ostream& out, const NetworkService_regist_pargs& obj);
+};
+
+typedef struct _NetworkService_regist_result__isset {
+  _NetworkService_regist_result__isset() : success(false) {}
+  bool success :1;
+} _NetworkService_regist_result__isset;
+
+class NetworkService_regist_result {
+ public:
+
+  static const char* ascii_fingerprint; // = "D9D3B4421B1F23CB4063C80B484E7909";
+  static const uint8_t binary_fingerprint[16]; // = {0xD9,0xD3,0xB4,0x42,0x1B,0x1F,0x23,0xCB,0x40,0x63,0xC8,0x0B,0x48,0x4E,0x79,0x09};
+
+  NetworkService_regist_result(const NetworkService_regist_result&);
+  NetworkService_regist_result& operator=(const NetworkService_regist_result&);
+  NetworkService_regist_result() : success(0) {
+  }
+
+  virtual ~NetworkService_regist_result() throw();
+  bool success;
+
+  _NetworkService_regist_result__isset __isset;
+
+  void __set_success(const bool val);
+
+  bool operator == (const NetworkService_regist_result & rhs) const
+  {
+    if (!(success == rhs.success))
+      return false;
+    return true;
+  }
+  bool operator != (const NetworkService_regist_result &rhs) const {
+    return !(*this == rhs);
+  }
+
+  bool operator < (const NetworkService_regist_result & ) const;
+
+  uint32_t read(::apache::thrift::protocol::TProtocol* iprot);
+  uint32_t write(::apache::thrift::protocol::TProtocol* oprot) const;
+
+  friend std::ostream& operator<<(std::ostream& out, const NetworkService_regist_result& obj);
+};
+
+typedef struct _NetworkService_regist_presult__isset {
+  _NetworkService_regist_presult__isset() : success(false) {}
+  bool success :1;
+} _NetworkService_regist_presult__isset;
+
+class NetworkService_regist_presult {
+ public:
+
+  static const char* ascii_fingerprint; // = "D9D3B4421B1F23CB4063C80B484E7909";
+  static const uint8_t binary_fingerprint[16]; // = {0xD9,0xD3,0xB4,0x42,0x1B,0x1F,0x23,0xCB,0x40,0x63,0xC8,0x0B,0x48,0x4E,0x79,0x09};
+
+
+  virtual ~NetworkService_regist_presult() throw();
+  bool* success;
+
+  _NetworkService_regist_presult__isset __isset;
+
+  uint32_t read(::apache::thrift::protocol::TProtocol* iprot);
+
+  friend std::ostream& operator<<(std::ostream& out, const NetworkService_regist_presult& obj);
 };
 
 typedef struct _NetworkService_logout_args__isset {
@@ -1768,6 +1907,9 @@ class NetworkServiceClient : virtual public NetworkServiceIf {
   void login( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& username, const std::string& password);
   void send_login(const std::string& username, const std::string& password);
   void recv_login( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return);
+  bool regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password);
+  void send_regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password);
+  bool recv_regist();
   void logout(const std::string& authenticationToken);
   void send_logout(const std::string& authenticationToken);
   void recv_logout();
@@ -1815,6 +1957,7 @@ class NetworkServiceProcessor : public ::apache::thrift::TDispatchProcessor {
   ProcessMap processMap_;
   void process_ping(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
   void process_login(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
+  void process_regist(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
   void process_logout(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
   void process_refreshAuthentication(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
   void process_getUser(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext);
@@ -1830,6 +1973,7 @@ class NetworkServiceProcessor : public ::apache::thrift::TDispatchProcessor {
     iface_(iface) {
     processMap_["ping"] = &NetworkServiceProcessor::process_ping;
     processMap_["login"] = &NetworkServiceProcessor::process_login;
+    processMap_["regist"] = &NetworkServiceProcessor::process_regist;
     processMap_["logout"] = &NetworkServiceProcessor::process_logout;
     processMap_["refreshAuthentication"] = &NetworkServiceProcessor::process_refreshAuthentication;
     processMap_["getUser"] = &NetworkServiceProcessor::process_getUser;
@@ -1886,6 +2030,15 @@ class NetworkServiceMultiface : virtual public NetworkServiceIf {
     }
     ifaces_[i]->login(_return, username, password);
     return;
+  }
+
+  bool regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password) {
+    size_t sz = ifaces_.size();
+    size_t i = 0;
+    for (; i < (sz - 1); ++i) {
+      ifaces_[i]->regist(newUser, password);
+    }
+    return ifaces_[i]->regist(newUser, password);
   }
 
   void logout(const std::string& authenticationToken) {

@@ -114,7 +114,7 @@ void WorkerThread:: onNewTaskAssigned(){
     int32_t taskId = mTask->taskId;
 
     reset();
-    
+
     if(onWorkListener != NULL){
         onWorkListener->onTaskDone(taskId);
     }

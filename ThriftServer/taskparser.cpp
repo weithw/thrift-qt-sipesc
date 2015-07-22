@@ -9,13 +9,33 @@
 #include <org.ssdut.plugin.helloworld.feature.messageprovider.h>
 #include <org.ssdut.plugin.helloworld.feature.messagereceiver.h>
 #include <string>
+#include "database.h"
 using namespace org::ssdut::plugin::helloworld::feature;
 using namespace std;
 
 
 //
-int call_helloworld(QString& command) {
-    cout << "in call_helloworld()!!!" << " para:" << command.toLatin1().data() << endl;
+int call_helloworld(QString& command, QString username) {
+    QStringList temp_strlist = command.trimmed().split(" ");
+    QList<QString>::Iterator it = temp_strlist.begin(),itend = temp_strlist.end();
+    int i = 0;
+    for (;it != itend; it++,i++){
+        if (*it == QString("-f")){//找到，高亮显示
+            // cout << "find -f" << endl;
+            it++;
+            if (it != itend)
+                //add path prefix for every user
+                *it = QString("user/") + username + QString("/")+ *it;
+            else {
+                cout << "-f: need file name." << endl;
+                return 0;
+            }
+            break;
+        }
+    }
+    QString my_command = temp_strlist.join(" ");
+
+    // cout << "in call_helloworld()!!!" << " para:" << my_command.toLatin1().data() << endl;
     MPluginManager::initialize(false);
 
     MPluginManager pmanager = MPluginManager::getManager();
@@ -49,7 +69,7 @@ int call_helloworld(QString& command) {
       return 0;
     }
 
-    receiver.showMessage("123");
+    receiver.showMessage(my_command);
 
     extManager.cleanup();
     MPluginManager::cleanup();
@@ -65,10 +85,9 @@ void  TaskParser::parse(Task *task) throw(SipescException){
     task->status = TaskStatus::RUNNING;
 
     QString taskCommand = QString::fromUtf8(task->rawCommand.data());
-    cout << "start to parse command:" << task->rawCommand << " [in server/TaskParser.cpp:parse()]" << endl;
+    cout << "start to parse command:" << task->rawCommand << " for user[id:" << task->userId << "] [in server/TaskParser.cpp:parse()]" << endl;
+    QString username = DBHelper::getDatabase()->getUsernameById(task->userId);
     emit  updateStatus( "start to parse command:" + taskCommand + "[in server/TaskParser.cpp:parse()]");
-
-
 
    //在这里写下对命令的解释, 我下面给出的是示例。你需要完整解析
 
@@ -82,7 +101,9 @@ void  TaskParser::parse(Task *task) throw(SipescException){
         if(is_call.compare("call",Qt::CaseInsensitive)==0){
             cout << "plugin name: " << plugin_name.toLatin1().data() << endl;
             if(plugin_name.compare("helloworld",Qt::CaseInsensitive)==0){
-                call_helloworld(command_para);
+
+
+                call_helloworld(command_para, username);
 
             }else if(plugin_name.compare("plugin2",Qt::CaseInsensitive)==0){
 

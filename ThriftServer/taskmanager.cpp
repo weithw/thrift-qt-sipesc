@@ -1,6 +1,5 @@
 #include "taskmanager.h"
 #include "time.h"
-
 TaskManager::TaskManager(QObject *parent) :
     QObject(parent),mWorkThreadPool(20)
 {
@@ -18,7 +17,7 @@ TaskManager::~TaskManager(){
 
 
 ID TaskManager::addTask(ID userId, std::string rawCommand){
-    cout << "[user.id:" <<  userId << "]" << " [rawCommand: " << rawCommand << "] [in taskmanager.cpp:addTask()]" << endl;
+
      qDebug() << tr("add task:")<<QThread::currentThreadId();
 
     Task*  task = new Task;
@@ -26,9 +25,6 @@ ID TaskManager::addTask(ID userId, std::string rawCommand){
     task->rawCommand = rawCommand;
     task->userId = userId;
     nextTaskId++;
-
-    cout << "Task Info: " << task->taskId << " " << task->rawCommand << " " << task->userId << " [in taskmanager.cpp:addTask()]" << endl;//debug
-    cout << "Task Info: " << *task << "[in taskmanager.cpp:addTask()]" << endl;//debug
 
     time_t now;
     time(&now);
@@ -65,11 +61,10 @@ void TaskManager::distributeTask(ID taskId){
 
     //查找可用线程
     WorkerThread * thread = mWorkThreadPool.findAvaiableTcpThread();
-    std::cout << "ThreadPool Current Size is : " << mWorkThreadPool.getThreadSize() << ".  Max Size is: "<< mWorkThreadPool.getMaxThreadSize() << endl;
+
     if(thread == NULL){
         if(mWorkThreadPool.getThreadSize()>=mWorkThreadPool.getMaxThreadSize()){
-            cout << "Error: No avaiable thread for use. The thread pool is full, and size is:"<<mWorkThreadPool.getThreadSize() << endl;
-             // qDebug() << tr("Error: No avaiable thread for use. The thread pool is full, and size is:")<<mWorkThreadPool.getThreadSize();
+             qDebug() << tr("Error: No avaiable thread for use. The thread pool is full, and size is:")<<mWorkThreadPool.getThreadSize();
              return;
         }
         else{
@@ -82,8 +77,7 @@ void TaskManager::distributeTask(ID taskId){
                 mWorkThreadPool.addNewWorkThread(thread);
             }
             else{
-                cout << "Error: No avaiable thread for use, fail to add new thread." << endl;
-                // qDebug() << tr("Error: No avaiable thread for use, fail to add new thread.");
+                qDebug() << tr("Error: No avaiable thread for use, fail to add new thread.");
                 return;
             }
         }
@@ -100,7 +94,7 @@ void TaskManager::distributeTask(ID taskId){
 
 void TaskManager::onTaskDone(ID id){
 
-    std::cout << "[in taskmanager.cpp:onTaskDone()]" << std::endl;
+
     qDebug() << tr("The task done:")<<id;
 
      QList<Task *> allTasks = tasks.values();
@@ -109,7 +103,6 @@ void TaskManager::onTaskDone(ID id){
      foreach(Task* task, allTasks)
      {
          if(task->status == TaskStatus::WAITTING){
-            std::cout << "Find next task from waiting to distribute..[in taskmanager.cpp:onTaskDone()]" << std::endl;
              qDebug() << tr("Find next task from waiting to distribute..");
              distributeTask(task->taskId);
              find = true;
@@ -118,7 +111,6 @@ void TaskManager::onTaskDone(ID id){
      }
 
      if(!find){
-        std::cout << "No more task to distribute..[in taskmanager.cpp:onTaskDone()]" << std::endl;
          qDebug() << tr("No more task to distribute..");
      }
 

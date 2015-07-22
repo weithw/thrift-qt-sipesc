@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'logindialog.ui'
 **
-** Created: Thu Jul 16 11:04:05 2015
+** Created: Wed Jul 22 10:06:10 2015
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -31,6 +31,7 @@ public:
     QHBoxLayout *horizontalLayout;
     QPushButton *loginPushButton;
     QPushButton *resetPushButton;
+    QPushButton *registPushButton;
     QWidget *layoutWidget1;
     QHBoxLayout *horizontalLayout_3;
     QLabel *labelPassword;
@@ -47,7 +48,7 @@ public:
         LoginDialog->resize(390, 190);
         layoutWidget = new QWidget(LoginDialog);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(120, 110, 121, 26));
+        layoutWidget->setGeometry(QRect(80, 110, 217, 26));
         horizontalLayout = new QHBoxLayout(layoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -60,6 +61,11 @@ public:
         resetPushButton->setObjectName(QString::fromUtf8("resetPushButton"));
 
         horizontalLayout->addWidget(resetPushButton);
+
+        registPushButton = new QPushButton(layoutWidget);
+        registPushButton->setObjectName(QString::fromUtf8("registPushButton"));
+
+        horizontalLayout->addWidget(registPushButton);
 
         layoutWidget1 = new QWidget(LoginDialog);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
@@ -108,6 +114,7 @@ public:
         LoginDialog->setWindowTitle(QApplication::translate("LoginDialog", "Login", 0, QApplication::UnicodeUTF8));
         loginPushButton->setText(QApplication::translate("LoginDialog", "&Login", 0, QApplication::UnicodeUTF8));
         resetPushButton->setText(QApplication::translate("LoginDialog", "&Reset", 0, QApplication::UnicodeUTF8));
+        registPushButton->setText(QApplication::translate("LoginDialog", "Regist", 0, QApplication::UnicodeUTF8));
         labelPassword->setText(QApplication::translate("LoginDialog", "&Password:", 0, QApplication::UnicodeUTF8));
         labelUserName->setText(QApplication::translate("LoginDialog", "&User Name:", 0, QApplication::UnicodeUTF8));
     } // retranslateUi

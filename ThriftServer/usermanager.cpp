@@ -9,9 +9,10 @@ UserManager::UserManager(QObject *parent) :
 
 User UserManager::getUserByToken(string token){
     if(users.contains(token)){
-
+        cout<<"find user"<<endl;
         return users[token];
     }
+    cout<<"user token not found"<<endl;
     User nullUser;
     nullUser.id = -1;
 
@@ -31,11 +32,11 @@ AuthenticationResult  UserManager::login(const std::string & username,const std:
 
         User user =  DBHelper::getDatabase()->getUser(username); //从数据库中获得用户
 
-        users.insert(result.authenticationToken,user); //插入到用户列表
         result.authenticationToken = createTokenForUser(user);
 
         result.user  = user;
-
+        users.insert(result.authenticationToken,user); //插入到用户列表
+        
         time_t now;
         time(&now);
         result.currentTime = now;
@@ -52,35 +53,9 @@ AuthenticationResult  UserManager::login(const std::string & username,const std:
     return result;
 }
 
-PublicUserInfo UserManager::getPublicUserInfo(const std::string & username){
+void UserManager::logout(const string &authenticationToken){
 
-    PublicUserInfo result;
-
-        cout << "Get user: aaa" << username << endl;
-    if( DBHelper::getDatabase()->getPublicUserInfo(username)){
-
-        User user =  DBHelper::getDatabase()->getUser(username); //从数据库中获得用户
-        cout << "GetUser: " << user << endl;
-        // users.insert(result.authenticationToken,user); //插入到用户列表
-
-        // result.authenticationToken = createTokenForUser(user);
-
-        // result.user  = user;
-
-        // time_t now;
-        // time(&now);
-        // result.currentTime = now;
-
-        // result.expiration = now + 3600; //一小时后失效.
-
-    }else{
-        // SipescException ex;
-        // ex.errorCode = SipescErrorCode::INVALID_AUTH;
-        // ex.why = "Wrong account.";
-        // throw ex;
-    }
-
-    return result;
+    users.remove(authenticationToken);
 }
 
 shared_ptr<UserManager> UserManagerHelper:: userManager =  shared_ptr<UserManager>(new UserManager());

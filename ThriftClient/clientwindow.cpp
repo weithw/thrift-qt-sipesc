@@ -131,7 +131,7 @@ void ClientWindow::on_sendFilesButton_clicked()
         QString fileName = fileString.right(fileString.size() -  last - 1);
 
         //TODO FIXME the token.
-         int64_t uploadedSize = Globals::networkService->uploadFile("this is token", std::string(fileName.toUtf8().constData()), data.size,data.content);
+         int64_t uploadedSize = Globals::networkService->uploadFile(Globals::authResult.authenticationToken, std::string(fileName.toUtf8().constData()), data.size,data.content);
 
        cout<<"file size:"<<totalSize<<",readed file size:"<<data.size<<endl;
 

@@ -29,9 +29,10 @@ public:
     bool openConnection();
     bool login(const std::string & username,const std::string & pwd);
     User getUser(const std::string& userName);
-    bool getPublicUserInfo(const std::string & username);
+    QString getUsernameById(int id);
     void closeConnection();
     void create();
+    bool regist(const User& newUser, const std::string& password);
 private:
     QSqlDatabase db;
 };

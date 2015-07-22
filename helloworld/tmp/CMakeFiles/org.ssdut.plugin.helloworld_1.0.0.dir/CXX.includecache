@@ -15,9 +15,17 @@ mextension.h
 -
 
 /home/ghw/project/thrift-qt-sipesc/helloworld/src/messagereceiverimpl.cxx
+QStringList
+-
 qtextstream.h
 -
+fstream
+-
+iostream
+-
 messagereceiverimpl.h
+-
+string
 -
 
 /usr/include/qt4/Qt3Support/q3cstring.h
@@ -37,6 +45,10 @@ iterator
 -
 list
 -
+
+/usr/include/qt4/QtCore/QStringList
+qstringlist.h
+/usr/include/qt4/QtCore/qstringlist.h
 
 /usr/include/qt4/QtCore/qalgorithms.h
 QtCore/qglobal.h

@@ -7,6 +7,22 @@
 ADMIN	thrift/gen-cpp/Types_types.h	/^    ADMIN = 5$/;"	e	enum:org::ssdut::sipesc::network::types::PrivilegeLevel::type
 AR	ThriftClient/Makefile	/^AR            = ar cqs$/;"	m
 AR	ThriftServer/Makefile	/^AR            = ar cqs$/;"	m
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	299;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	302;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	305;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	308;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	311;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	314;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	317;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	321;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	286;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	289;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	292;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	295;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	298;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	301;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	304;"	d	file:
+ARCHITECTURE_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	308;"	d	file:
 AUTH_EXPIRED	thrift/gen-cpp/Types_types.h	/^    AUTH_EXPIRED = 5,$/;"	e	enum:org::ssdut::sipesc::network::types::SipescErrorCode::type
 AuthenticationResult	thrift/gen-cpp/Types_types.cpp	/^AuthenticationResult::AuthenticationResult(const AuthenticationResult& other13) {$/;"	f	class:org::ssdut::sipesc::network::types::AuthenticationResult
 AuthenticationResult	thrift/gen-cpp/Types_types.h	/^  AuthenticationResult() : currentTime(0), authenticationToken(), expiration(0) {$/;"	f	class:org::ssdut::sipesc::network::types::AuthenticationResult
@@ -15,12 +31,185 @@ Bytes	thrift/gen-cpp/Types_types.h	/^typedef std::string Bytes;$/;"	t	namespace:
 CANCELED	thrift/gen-cpp/Types_types.h	/^    CANCELED = 4,$/;"	e	enum:org::ssdut::sipesc::network::types::TaskStatus::type
 CC	ThriftClient/Makefile	/^CC            = gcc$/;"	m
 CC	ThriftServer/Makefile	/^CC            = gcc$/;"	m
-CFLAGS	ThriftClient/Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
-CFLAGS	ThriftServer/Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CFLAGS	ThriftClient/Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES) -g -gstabs+$/;"	m
+CFLAGS	ThriftServer/Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES) -g -gstabs+$/;"	m
 CHK_DIR_EXISTS	ThriftClient/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
 CHK_DIR_EXISTS	ThriftServer/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
 CLIENTWINDOW_H	ThriftClient/clientwindow.h	2;"	d
+CMAKE_BINARY_DIR	helloworld/tmp/Makefile	/^CMAKE_BINARY_DIR = \/home\/ghw\/project\/thrift-qt-sipesc\/helloworld\/tmp$/;"	m
+CMAKE_COMMAND	helloworld/tmp/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	helloworld/tmp/Makefile	/^CMAKE_SOURCE_DIR = \/home\/ghw\/project\/thrift-qt-sipesc\/helloworld$/;"	m
 COMMANDPARSER_H	ThriftClient/commandparser.h	2;"	d
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	107;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	112;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	133;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	160;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	171;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	178;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	195;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	198;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	201;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	24;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	32;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	50;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	56;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	70;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	88;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	90;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	99;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	112;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	124;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	127;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	135;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	154;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	162;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	165;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	182;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	185;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	188;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	37;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	49;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	55;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	61;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	75;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	82;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	93;"	d	file:
+COMPILER_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	95;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	100;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	108;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	114;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	126;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	135;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	154;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	15;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	181;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	186;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	33;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	39;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	64;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	72;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	79;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	93;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	14;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	156;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	168;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	173;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	20;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	69;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	77;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d	file:
+COMPILER_VERSION_MAJOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	101;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	109;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	115;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	127;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	136;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	174;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	187;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	26;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	40;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	47;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	53;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	60;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	65;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	106;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	114;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	120;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	169;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	174;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	31;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	39;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	45;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	52;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	58;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	70;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	78;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_MINOR	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	99;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	103;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	129;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	143;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	156;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	175;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	17;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	183;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	188;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	28;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	35;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	41;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	66;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	74;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	81;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	95;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	100;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	121;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	22;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	33;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	40;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	46;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	66;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	79;"	d	file:
+COMPILER_VERSION_PATCH	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	86;"	d	file:
+COMPILER_VERSION_TWEAK	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	147;"	d	file:
+COMPILER_VERSION_TWEAK	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	20;"	d	file:
+COMPILER_VERSION_TWEAK	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+COMPILER_VERSION_TWEAK	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
 COMPRESS	ThriftClient/Makefile	/^COMPRESS      = gzip -9f$/;"	m
 COMPRESS	ThriftServer/Makefile	/^COMPRESS      = gzip -9f$/;"	m
 COPY	ThriftClient/Makefile	/^COPY          = cp -f$/;"	m
@@ -31,8 +220,8 @@ COPY_FILE	ThriftClient/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
 COPY_FILE	ThriftServer/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
 CXX	ThriftClient/Makefile	/^CXX           = g++$/;"	m
 CXX	ThriftServer/Makefile	/^CXX           = g++$/;"	m
-CXXFLAGS	ThriftClient/Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
-CXXFLAGS	ThriftServer/Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CXXFLAGS	ThriftClient/Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES) -g -gstabs+$/;"	m
+CXXFLAGS	ThriftServer/Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES) -g -gstabs+$/;"	m
 CalculatorHandler	ThriftServer/CppServer.cpp	/^  CalculatorHandler() {}$/;"	f	class:CalculatorHandler
 CalculatorHandler	ThriftServer/CppServer.cpp	/^class CalculatorHandler : public CalculatorIf {$/;"	c	file:
 CallResult	thrift/gen-cpp/Types_types.cpp	/^CallResult::CallResult(const CallResult& other1) {$/;"	f	class:org::ssdut::sipesc::network::types::CallResult
@@ -47,6 +236,8 @@ DATABASE_H	ThriftServer/database.h	2;"	d
 DATA_REQUIRED	thrift/gen-cpp/Types_types.h	/^    DATA_REQUIRED = 3,$/;"	e	enum:org::ssdut::sipesc::network::types::SipescErrorCode::type
 DBHelper	ThriftServer/database.h	/^class DBHelper$/;"	c
 DEAD	thrift/gen-cpp/Types_types.h	/^    DEAD = 5,$/;"	e	enum:org::ssdut::sipesc::network::types::TaskStatus::type
+DEC	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	325;"	d	file:
+DEC	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	312;"	d	file:
 DEFINES	ThriftClient/Makefile	/^DEFINES       = -DQT_WEBKIT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
 DEFINES	ThriftServer/Makefile	/^DEFINES       = -DQT_WEBKIT -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
 DEL_DIR	ThriftClient/Makefile	/^DEL_DIR       = rmdir$/;"	m
@@ -62,16 +253,20 @@ Data	thrift/gen-cpp/Types_types.h	/^  Data() : size(0), content() {$/;"	f	class:
 Data	thrift/gen-cpp/Types_types.h	/^class Data {$/;"	c	namespace:org::ssdut::sipesc::network::types
 Database	ThriftServer/database.cpp	/^Database::Database()$/;"	f	class:Database
 Database	ThriftServer/database.h	/^class Database$/;"	c
+EQUALS	helloworld/tmp/Makefile	/^EQUALS = =$/;"	m
 ERROR	thrift/gen-cpp/Types_types.h	/^    ERROR = 7,$/;"	e	enum:org::ssdut::sipesc::network::types::TaskStatus::type
 Error	thrift/gen-cpp/Types_types.h	/^    Error = 2$/;"	e	enum:org::ssdut::sipesc::network::types::ResultCode::type
 FILE_LEN_LIMIT	thrift/gen-cpp/Types_constants.h	/^  int64_t FILE_LEN_LIMIT;$/;"	m	class:org::ssdut::sipesc::network::types::TypesConstants
 GLOBALS_H	ThriftClient/globals.h	2;"	d
 Globals	ThriftClient/globals.cpp	/^Globals::Globals(QObject *parent) :$/;"	f	class:Globals
 Globals	ThriftClient/globals.h	/^class Globals : public QObject$/;"	c
+HEX	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	336;"	d	file:
+HEX	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	323;"	d	file:
 Handler	thrift/gen-cpp/NetworkService.h	/^  typedef NetworkServiceIf Handler;$/;"	t	class:org::ssdut::sipesc::network::service::NetworkServiceIfFactory
 ID	thrift/gen-cpp/Types_types.h	/^typedef int32_t ID;$/;"	t	namespace:org::ssdut::sipesc::network::types
+ID_VOID_MAIN	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	9;"	d	file:
 INCPATH	ThriftClient/Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++ -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I\/usr\/include\/thrift -I\/usr\/include\/boost -I. -I.$/;"	m
-INCPATH	ThriftServer/Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++ -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4\/QtSql -I\/usr\/include\/qt4 -I\/usr\/include\/thrift -I\/usr\/include\/boost -I. -I.$/;"	m
+INCPATH	ThriftServer/Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++ -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4\/QtSql -I\/usr\/include\/qt4 -I\/usr\/include\/thrift -I\/usr\/include\/boost -I. -I. -I.\/sipsc -I\/usr\/include\/sipesc\/plugin -I\/usr\/include\/sipesc\/extmgr-core$/;"	m
 INSTALL_DIR	ThriftClient/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
 INSTALL_DIR	ThriftServer/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
 INSTALL_FILE	ThriftClient/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
@@ -79,10 +274,10 @@ INSTALL_FILE	ThriftServer/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
 INSTALL_PROGRAM	ThriftClient/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
 INSTALL_PROGRAM	ThriftServer/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
 INVALID_AUTH	thrift/gen-cpp/Types_types.h	/^    INVALID_AUTH = 4,$/;"	e	enum:org::ssdut::sipesc::network::types::SipescErrorCode::type
-LFLAGS	ThriftClient/Makefile	/^LFLAGS        = -Wl,-O1$/;"	m
-LFLAGS	ThriftServer/Makefile	/^LFLAGS        = -Wl,-O1$/;"	m
+LFLAGS	ThriftClient/Makefile	/^LFLAGS        = -Wl,-O1 -g -gstabs+$/;"	m
+LFLAGS	ThriftServer/Makefile	/^LFLAGS        = -Wl,-O1 -g -gstabs+$/;"	m
 LIBS	ThriftClient/Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib\/i386-linux-gnu \/usr\/lib\/libthrift.so -lQtGui -lQtCore -lpthread $/;"	m
-LIBS	ThriftServer/Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib\/i386-linux-gnu \/usr\/lib\/libthrift.so \/usr\/lib\/libevent.so \/usr\/lib\/libthriftnb.so -lQtSql -lQtGui -lQtCore -lpthread $/;"	m
+LIBS	ThriftServer/Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib\/i386-linux-gnu \/usr\/lib\/libthrift.so \/usr\/lib\/libevent.so \/usr\/lib\/libthriftnb.so -lQtSql -lQtGui -lQtCore -lpthread  -lmextmgr-cored$/;"	m
 LINK	ThriftClient/Makefile	/^LINK          = g++$/;"	m
 LINK	ThriftServer/Makefile	/^LINK          = g++$/;"	m
 LOGINDIALOG_H	ThriftClient/logindialog.h	2;"	d
@@ -90,10 +285,40 @@ LoginDialog	ThriftClient/logindialog.cpp	/^LoginDialog::LoginDialog(QWidget *par
 LoginDialog	ThriftClient/logindialog.h	/^class LoginDialog : public QDialog$/;"	c
 LoginDialog	ThriftClient/ui_logindialog.h	/^    class LoginDialog: public Ui_LoginDialog {};$/;"	c	namespace:Ui
 MANAGER	thrift/gen-cpp/Types_types.h	/^    MANAGER = 3,$/;"	e	enum:org::ssdut::sipesc::network::types::PrivilegeLevel::type
+MESSAGEPROVIDERIMPL_H	helloworld/inc/messageproviderimpl.h	2;"	d
+MESSAGERECEIVERIMPL_H	helloworld/inc/messagereceiverimpl.h	2;"	d
 MKDIR	ThriftClient/Makefile	/^MKDIR         = mkdir -p$/;"	m
 MKDIR	ThriftServer/Makefile	/^MKDIR         = mkdir -p$/;"	m
 MOVE	ThriftClient/Makefile	/^MOVE          = mv -f$/;"	m
 MOVE	ThriftServer/Makefile	/^MOVE          = mv -f$/;"	m
+MessageProvider	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^class MessageProvider:$/;"	c	namespace:org::ssdut::plugin::helloworld::feature
+MessageProvider	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider::MessageProvider()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+MessageProvider	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider::MessageProvider(MessageProviderInterface* data)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+MessageProvider	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider::MessageProvider(const MExtension& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+MessageProvider	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider::MessageProvider(const MessageProvider& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+MessageProvider	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^class MessageProvider:$/;"	c	namespace:org::ssdut::plugin::helloworld::feature
+MessageProvider	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider::MessageProvider()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+MessageProvider	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider::MessageProvider(MessageProviderInterface* data)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+MessageProvider	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider::MessageProvider(const MExtension& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+MessageProvider	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider::MessageProvider(const MessageProvider& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+MessageProviderImpl	helloworld/inc/messageproviderimpl.h	/^class MessageProviderImpl: public MessageProviderInterface$/;"	c
+MessageProviderImpl	helloworld/src/messageproviderimpl.cxx	/^MessageProviderImpl::MessageProviderImpl()$/;"	f	class:MessageProviderImpl
+MessageProviderInterface	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^class MessageProviderInterface:$/;"	c	namespace:org::ssdut::plugin::helloworld::feature
+MessageProviderInterface	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^class MessageProviderInterface:$/;"	c	namespace:org::ssdut::plugin::helloworld::feature
+MessageReceiver	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^class MessageReceiver:$/;"	c	namespace:org::ssdut::plugin::helloworld::feature
+MessageReceiver	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver::MessageReceiver()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+MessageReceiver	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver::MessageReceiver(MessageReceiverInterface* data)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+MessageReceiver	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver::MessageReceiver(const MExtension& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+MessageReceiver	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver::MessageReceiver(const MessageReceiver& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+MessageReceiver	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^class MessageReceiver:$/;"	c	namespace:org::ssdut::plugin::helloworld::feature
+MessageReceiver	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver::MessageReceiver()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+MessageReceiver	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver::MessageReceiver(MessageReceiverInterface* data)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+MessageReceiver	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver::MessageReceiver(const MExtension& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+MessageReceiver	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver::MessageReceiver(const MessageReceiver& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+MessageReceiverImpl	helloworld/inc/messagereceiverimpl.h	/^class MessageReceiverImpl: public MessageReceiverInterface$/;"	c
+MessageReceiverImpl	helloworld/src/messagereceiverimpl.cxx	/^MessageReceiverImpl::MessageReceiverImpl(){$/;"	f	class:MessageReceiverImpl
+MessageReceiverInterface	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^class MessageReceiverInterface:$/;"	c	namespace:org::ssdut::plugin::helloworld::feature
+MessageReceiverInterface	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^class MessageReceiverInterface:$/;"	c	namespace:org::ssdut::plugin::helloworld::feature
 NETWORKSERVICEHANDLER_H	ThriftServer/networkservicehandler.h	2;"	d
 NEW	thrift/gen-cpp/Types_types.h	/^    NEW = 1,$/;"	e	enum:org::ssdut::sipesc::network::types::TaskStatus::type
 NORMAL	thrift/gen-cpp/Types_types.h	/^    NORMAL = 1,$/;"	e	enum:org::ssdut::sipesc::network::types::PrivilegeLevel::type
@@ -185,6 +410,12 @@ NetworkService_refreshAuthentication_pargs	thrift/gen-cpp/NetworkService.h	/^cla
 NetworkService_refreshAuthentication_presult	thrift/gen-cpp/NetworkService.h	/^class NetworkService_refreshAuthentication_presult {$/;"	c	namespace:org::ssdut::sipesc::network::service
 NetworkService_refreshAuthentication_result	thrift/gen-cpp/NetworkService.h	/^  NetworkService_refreshAuthentication_result() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_result
 NetworkService_refreshAuthentication_result	thrift/gen-cpp/NetworkService.h	/^class NetworkService_refreshAuthentication_result {$/;"	c	namespace:org::ssdut::sipesc::network::service
+NetworkService_regist_args	thrift/gen-cpp/NetworkService.h	/^  NetworkService_regist_args() : password() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+NetworkService_regist_args	thrift/gen-cpp/NetworkService.h	/^class NetworkService_regist_args {$/;"	c	namespace:org::ssdut::sipesc::network::service
+NetworkService_regist_pargs	thrift/gen-cpp/NetworkService.h	/^class NetworkService_regist_pargs {$/;"	c	namespace:org::ssdut::sipesc::network::service
+NetworkService_regist_presult	thrift/gen-cpp/NetworkService.h	/^class NetworkService_regist_presult {$/;"	c	namespace:org::ssdut::sipesc::network::service
+NetworkService_regist_result	thrift/gen-cpp/NetworkService.h	/^  NetworkService_regist_result() : success(0) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_result
+NetworkService_regist_result	thrift/gen-cpp/NetworkService.h	/^class NetworkService_regist_result {$/;"	c	namespace:org::ssdut::sipesc::network::service
 NetworkService_uploadFile_args	thrift/gen-cpp/NetworkService.h	/^  NetworkService_uploadFile_args() : authenticationToken(), fileName(), size(0), data() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_args
 NetworkService_uploadFile_args	thrift/gen-cpp/NetworkService.h	/^class NetworkService_uploadFile_args {$/;"	c	namespace:org::ssdut::sipesc::network::service
 NetworkService_uploadFile_pargs	thrift/gen-cpp/NetworkService.h	/^class NetworkService_uploadFile_pargs {$/;"	c	namespace:org::ssdut::sipesc::network::service
@@ -197,7 +428,71 @@ OBJECTS	ThriftClient/Makefile	/^OBJECTS       = main.o \\$/;"	m
 OBJECTS	ThriftServer/Makefile	/^OBJECTS       = main.o \\$/;"	m
 OBJECTS_DIR	ThriftClient/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
 OBJECTS_DIR	ThriftServer/Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+ORG_SSDUT_PLUGIN_HELLOWORLD_FEATURE_MESSAGEPROVIDER_H	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	2;"	d
+ORG_SSDUT_PLUGIN_HELLOWORLD_FEATURE_MESSAGEPROVIDER_H	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	2;"	d
+ORG_SSDUT_PLUGIN_HELLOWORLD_FEATURE_MESSAGERECEIVER_H	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	2;"	d
+ORG_SSDUT_PLUGIN_HELLOWORLD_FEATURE_MESSAGERECEIVER_H	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	2;"	d
+ORG_SSDUT_PLUGIN_HELLOWORLD_H	helloworld/inc/org.ssdut.plugin.helloworld.h	2;"	d
+OrgSsdutPluginHelloworldPlugin	helloworld/inc/org.ssdut.plugin.helloworld.h	/^class OrgSsdutPluginHelloworldPlugin:public MPluginObject$/;"	c
+OrgSsdutPluginHelloworldPlugin	helloworld/src/org.ssdut.plugin.helloworld.cxx	/^OrgSsdutPluginHelloworldPlugin::OrgSsdutPluginHelloworldPlugin()$/;"	f	class:OrgSsdutPluginHelloworldPlugin
+OrgSsdutPluginHelloworldPlugin	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^M_EXTMGR_PLUGIN_INSTANCE(OrgSsdutPluginHelloworldPlugin);$/;"	v
+OrgSsdutPluginHelloworldPluginPluginXmlData	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^static const uchar OrgSsdutPluginHelloworldPluginPluginXmlData[]=$/;"	v	file:
+OrgSsdutPluginHelloworldPluginPluginXmlDataSize	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^static const int OrgSsdutPluginHelloworldPluginPluginXmlDataSize=134;$/;"	v	file:
+OrgSsdutPluginHelloworldPluginStringMapper	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^OrgSsdutPluginHelloworldPluginStringMapper[]=$/;"	v	typeref:struct:__anon1	file:
+OrgSsdutPluginHelloworldPluginStringMapperCount	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^static const int OrgSsdutPluginHelloworldPluginStringMapperCount=17;$/;"	v	file:
 PERMISSION_DENIED	thrift/gen-cpp/Types_types.h	/^    PERMISSION_DENIED = 2,$/;"	e	enum:org::ssdut::sipesc::network::types::SipescErrorCode::type
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	213;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	216;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	219;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	222;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	225;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	228;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	231;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	234;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	237;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	240;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	243;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	246;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	249;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	252;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	255;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	258;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	261;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	264;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	267;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	270;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	273;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	276;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	279;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	282;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	285;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	288;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	200;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	203;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	206;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	209;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	212;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	215;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	218;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	221;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	224;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	227;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	230;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	233;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	236;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	239;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	242;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	245;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	248;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	251;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	254;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	257;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	260;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	263;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	266;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	269;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	272;"	d	file:
+PLATFORM_ID	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	275;"	d	file:
 PrivilegeLevel	thrift/gen-cpp/Types_types.h	/^struct PrivilegeLevel {$/;"	s	namespace:org::ssdut::sipesc::network::types
 ProcessFunction	thrift/gen-cpp/NetworkService.h	/^  typedef  void (NetworkServiceProcessor::*ProcessFunction)(int32_t, ::apache::thrift::protocol::TProtocol*, ::apache::thrift::protocol::TProtocol*, void*);$/;"	t	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
 ProcessMap	thrift/gen-cpp/NetworkService.h	/^  typedef std::map<std::string, ProcessFunction> ProcessMap;$/;"	t	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
@@ -210,16 +505,23 @@ QMAKE_TARGET	ThriftClient/Makefile	/^QMAKE_TARGET  = ThriftClient$/;"	m
 QMAKE_TARGET	ThriftServer/Makefile	/^QMAKE_TARGET  = ThriftServer$/;"	m
 RANLIB	ThriftClient/Makefile	/^RANLIB        = $/;"	m
 RANLIB	ThriftServer/Makefile	/^RANLIB        = $/;"	m
+REGISTDIALOG_H	ThriftClient/registdialog.h	2;"	d
+RM	helloworld/tmp/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
 RUNNING	thrift/gen-cpp/Types_types.h	/^    RUNNING = 2,$/;"	e	enum:org::ssdut::sipesc::network::types::TaskStatus::type
+RegistDialog	ThriftClient/registdialog.cpp	/^RegistDialog::RegistDialog(QWidget *parent) :$/;"	f	class:RegistDialog
+RegistDialog	ThriftClient/registdialog.h	/^class RegistDialog : public QDialog$/;"	c
+RegistDialog	ThriftClient/ui_registdialog.h	/^    class RegistDialog: public Ui_RegistDialog {};$/;"	c	namespace:Ui
 ResultCode	thrift/gen-cpp/Types_types.h	/^struct ResultCode {$/;"	s	namespace:org::ssdut::sipesc::network::types
 SED	ThriftClient/Makefile	/^SED           = sed$/;"	m
 SED	ThriftServer/Makefile	/^SED           = sed$/;"	m
 SERVERWINDOW_H	ThriftServer/serverwindow.h	2;"	d
+SHELL	helloworld/tmp/Makefile	/^SHELL = \/bin\/sh$/;"	m
 SOURCES	ThriftClient/Makefile	/^SOURCES       = main.cpp \\$/;"	m
 SOURCES	ThriftServer/Makefile	/^SOURCES       = main.cpp \\$/;"	m
 STRIP	ThriftClient/Makefile	/^STRIP         = strip$/;"	m
 STRIP	ThriftServer/Makefile	/^STRIP         = strip$/;"	m
 SUCC	thrift/gen-cpp/Types_types.h	/^    SUCC = 6,$/;"	e	enum:org::ssdut::sipesc::network::types::TaskStatus::type
+SUFFIXES	helloworld/tmp/Makefile	/^SUFFIXES =$/;"	m
 SYMLINK	ThriftClient/Makefile	/^SYMLINK       = ln -f -s$/;"	m
 SYMLINK	ThriftServer/Makefile	/^SYMLINK       = ln -f -s$/;"	m
 ServerWindow	ThriftServer/serverwindow.cpp	/^ServerWindow::ServerWindow(QWidget *parent) :$/;"	f	class:ServerWindow
@@ -261,6 +563,7 @@ Types_CONSTANTS_H	thrift/gen-cpp/Types_constants.h	8;"	d
 Types_TYPES_H	thrift/gen-cpp/Types_types.h	8;"	d
 UI_CLIENTWINDOW_H	ThriftClient/ui_clientwindow.h	11;"	d
 UI_LOGINDIALOG_H	ThriftClient/ui_logindialog.h	11;"	d
+UI_REGISTDIALOG_H	ThriftClient/ui_registdialog.h	11;"	d
 UI_SERVERWINDOW_H	ThriftServer/ui_serverwindow.h	11;"	d
 UNKNOWN	thrift/gen-cpp/Types_types.h	/^    UNKNOWN = 1,$/;"	e	enum:org::ssdut::sipesc::network::types::SipescErrorCode::type
 UNSUPPORTED_OPERATION	thrift/gen-cpp/Types_types.h	/^    UNSUPPORTED_OPERATION = 6$/;"	e	enum:org::ssdut::sipesc::network::types::SipescErrorCode::type
@@ -269,12 +572,15 @@ USERSERVICEHANDLER_H	ThriftServer/userservicehandler.h	2;"	d
 USER_H	ThriftClient/user.h	2;"	d
 Ui	ThriftClient/clientwindow.h	/^namespace Ui {$/;"	n
 Ui	ThriftClient/logindialog.h	/^namespace Ui {$/;"	n
+Ui	ThriftClient/registdialog.h	/^namespace Ui {$/;"	n
 Ui	ThriftClient/ui_clientwindow.h	/^namespace Ui {$/;"	n
 Ui	ThriftClient/ui_logindialog.h	/^namespace Ui {$/;"	n
+Ui	ThriftClient/ui_registdialog.h	/^namespace Ui {$/;"	n
 Ui	ThriftServer/serverwindow.h	/^namespace Ui {$/;"	n
 Ui	ThriftServer/ui_serverwindow.h	/^namespace Ui {$/;"	n
 Ui_ClientWindow	ThriftClient/ui_clientwindow.h	/^class Ui_ClientWindow$/;"	c
 Ui_LoginDialog	ThriftClient/ui_logindialog.h	/^class Ui_LoginDialog$/;"	c
+Ui_RegistDialog	ThriftClient/ui_registdialog.h	/^class Ui_RegistDialog$/;"	c
 Ui_ServerWindow	ThriftServer/ui_serverwindow.h	/^class Ui_ServerWindow$/;"	c
 User	ThriftClient/user.cpp	/^User::User(QObject *parent) :$/;"	f	class:User
 User	ThriftClient/user.h	/^class User : public QObject$/;"	c
@@ -399,6 +705,15 @@ _NetworkService_refreshAuthentication_presult__isset	thrift/gen-cpp/NetworkServi
 _NetworkService_refreshAuthentication_result__isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_refreshAuthentication_result__isset() : success(false), ex(false) {}$/;"	f	struct:org::ssdut::sipesc::network::service::_NetworkService_refreshAuthentication_result__isset
 _NetworkService_refreshAuthentication_result__isset	thrift/gen-cpp/NetworkService.h	/^typedef struct _NetworkService_refreshAuthentication_result__isset {$/;"	s	namespace:org::ssdut::sipesc::network::service
 _NetworkService_refreshAuthentication_result__isset	thrift/gen-cpp/NetworkService.h	/^} _NetworkService_refreshAuthentication_result__isset;$/;"	t	namespace:org::ssdut::sipesc::network::service	typeref:struct:org::ssdut::sipesc::network::service::_NetworkService_refreshAuthentication_result__isset
+_NetworkService_regist_args__isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_regist_args__isset() : newUser(false), password(false) {}$/;"	f	struct:org::ssdut::sipesc::network::service::_NetworkService_regist_args__isset
+_NetworkService_regist_args__isset	thrift/gen-cpp/NetworkService.h	/^typedef struct _NetworkService_regist_args__isset {$/;"	s	namespace:org::ssdut::sipesc::network::service
+_NetworkService_regist_args__isset	thrift/gen-cpp/NetworkService.h	/^} _NetworkService_regist_args__isset;$/;"	t	namespace:org::ssdut::sipesc::network::service	typeref:struct:org::ssdut::sipesc::network::service::_NetworkService_regist_args__isset
+_NetworkService_regist_presult__isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_regist_presult__isset() : success(false) {}$/;"	f	struct:org::ssdut::sipesc::network::service::_NetworkService_regist_presult__isset
+_NetworkService_regist_presult__isset	thrift/gen-cpp/NetworkService.h	/^typedef struct _NetworkService_regist_presult__isset {$/;"	s	namespace:org::ssdut::sipesc::network::service
+_NetworkService_regist_presult__isset	thrift/gen-cpp/NetworkService.h	/^} _NetworkService_regist_presult__isset;$/;"	t	namespace:org::ssdut::sipesc::network::service	typeref:struct:org::ssdut::sipesc::network::service::_NetworkService_regist_presult__isset
+_NetworkService_regist_result__isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_regist_result__isset() : success(false) {}$/;"	f	struct:org::ssdut::sipesc::network::service::_NetworkService_regist_result__isset
+_NetworkService_regist_result__isset	thrift/gen-cpp/NetworkService.h	/^typedef struct _NetworkService_regist_result__isset {$/;"	s	namespace:org::ssdut::sipesc::network::service
+_NetworkService_regist_result__isset	thrift/gen-cpp/NetworkService.h	/^} _NetworkService_regist_result__isset;$/;"	t	namespace:org::ssdut::sipesc::network::service	typeref:struct:org::ssdut::sipesc::network::service::_NetworkService_regist_result__isset
 _NetworkService_uploadFile_args__isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_uploadFile_args__isset() : authenticationToken(false), fileName(false), size(false), data(false) {}$/;"	f	struct:org::ssdut::sipesc::network::service::_NetworkService_uploadFile_args__isset
 _NetworkService_uploadFile_args__isset	thrift/gen-cpp/NetworkService.h	/^typedef struct _NetworkService_uploadFile_args__isset {$/;"	s	namespace:org::ssdut::sipesc::network::service
 _NetworkService_uploadFile_args__isset	thrift/gen-cpp/NetworkService.h	/^} _NetworkService_uploadFile_args__isset;$/;"	t	namespace:org::ssdut::sipesc::network::service	typeref:struct:org::ssdut::sipesc::network::service::_NetworkService_uploadFile_args__isset
@@ -452,6 +767,9 @@ __isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_postTask_result__iss
 __isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_refreshAuthentication_args__isset __isset;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_args
 __isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_refreshAuthentication_presult__isset __isset;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_presult
 __isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_refreshAuthentication_result__isset __isset;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_result
+__isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_regist_args__isset __isset;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+__isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_regist_presult__isset __isset;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_presult
+__isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_regist_result__isset __isset;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_result
 __isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_uploadFile_args__isset __isset;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_args
 __isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_uploadFile_presult__isset __isset;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_presult
 __isset	thrift/gen-cpp/NetworkService.h	/^  _NetworkService_uploadFile_result__isset __isset;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_result
@@ -504,6 +822,10 @@ __set_userId	thrift/gen-cpp/Types_types.cpp	/^void Task::__set_userId(const ID v
 __set_userName	thrift/gen-cpp/Types_types.cpp	/^void User::__set_userName(const std::string& val) {$/;"	f	class:org::ssdut::sipesc::network::types::User
 __set_username	thrift/gen-cpp/Types_types.cpp	/^void PublicUserInfo::__set_username(const std::string& val) {$/;"	f	class:org::ssdut::sipesc::network::types::PublicUserInfo
 __set_why	thrift/gen-cpp/Types_types.cpp	/^void SipescException::__set_why(const Text& val) {$/;"	f	class:org::ssdut::sipesc::network::types::SipescException
+_getSelfClassName	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline QString MessageProviderInterface::_getSelfClassName()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+_getSelfClassName	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline QString MessageReceiverInterface::_getSelfClassName()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
+_getSelfClassName	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline QString MessageProviderInterface::_getSelfClassName()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+_getSelfClassName	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline QString MessageReceiverInterface::_getSelfClassName()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
 _kPrivilegeLevelNames	thrift/gen-cpp/Types_types.cpp	/^const char* _kPrivilegeLevelNames[] = {$/;"	m	namespace:org::ssdut::sipesc::network::types	file:
 _kPrivilegeLevelValues	thrift/gen-cpp/Types_types.cpp	/^int _kPrivilegeLevelValues[] = {$/;"	m	namespace:org::ssdut::sipesc::network::types	file:
 _kResultCodeNames	thrift/gen-cpp/Types_types.cpp	/^const char* _kResultCodeNames[] = {$/;"	m	namespace:org::ssdut::sipesc::network::types	file:
@@ -512,6 +834,8 @@ _kSipescErrorCodeNames	thrift/gen-cpp/Types_types.cpp	/^const char* _kSipescErro
 _kSipescErrorCodeValues	thrift/gen-cpp/Types_types.cpp	/^int _kSipescErrorCodeValues[] = {$/;"	m	namespace:org::ssdut::sipesc::network::types	file:
 _kTaskStatusNames	thrift/gen-cpp/Types_types.cpp	/^const char* _kTaskStatusNames[] = {$/;"	m	namespace:org::ssdut::sipesc::network::types	file:
 _kTaskStatusValues	thrift/gen-cpp/Types_types.cpp	/^int _kTaskStatusValues[] = {$/;"	m	namespace:org::ssdut::sipesc::network::types	file:
+_message	helloworld/inc/messageproviderimpl.h	/^QString _message;$/;"	m	class:MessageProviderImpl
+_running	helloworld/inc/org.ssdut.plugin.helloworld.h	/^    bool _running;$/;"	m	class:OrgSsdutPluginHelloworldPlugin
 add	ThriftServer/CppServer.cpp	/^  int32_t add(const int32_t n1, const int32_t n2) {$/;"	f	class:CalculatorHandler
 add	thrift/gen-cpp/NetworkService.h	/^  void add(boost::shared_ptr<NetworkServiceIf> iface) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceMultiface
 addFileButton	ThriftClient/ui_clientwindow.h	/^    QPushButton *addFileButton;$/;"	m	class:Ui_ClientWindow
@@ -519,6 +843,10 @@ addNewWorkThread	ThriftServer/workerthreadpool.cpp	/^void  WorkerThreadPool::add
 addTask	ThriftServer/taskmanager.cpp	/^ID TaskManager::addTask(ID userId, std::string rawCommand){$/;"	f	class:TaskManager
 address	thrift/gen-cpp/Types_types.h	/^  bool address :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_User__isset
 address	thrift/gen-cpp/Types_types.h	/^  std::string address;$/;"	m	class:org::ssdut::sipesc::network::types::User
+addressLabel	ThriftClient/ui_registdialog.h	/^    QLabel *addressLabel;$/;"	m	class:Ui_RegistDialog
+addressLineEdit	ThriftClient/ui_registdialog.h	/^    QLineEdit *addressLineEdit;$/;"	m	class:Ui_RegistDialog
+ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "04C87A0F726CE190775EC0B321806BB4";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "04C87A0F726CE190775EC0B321806BB4";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_pargs
 ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "07A9615F837F7D0A952B595DD3020972";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_deleteFile_args
 ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "07A9615F837F7D0A952B595DD3020972";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_deleteFile_pargs
 ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "07A9615F837F7D0A952B595DD3020972";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_downloadFile_args
@@ -549,6 +877,8 @@ ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_f
 ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "C637AC5B12BA9B2A2BE38329F224415D";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_getPublicUserInfo_result
 ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "CEC3BC7F4D3989774841C1C824DE6704";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_downloadFile_presult
 ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "CEC3BC7F4D3989774841C1C824DE6704";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_downloadFile_result
+ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "D9D3B4421B1F23CB4063C80B484E7909";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_presult
+ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "D9D3B4421B1F23CB4063C80B484E7909";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_result
 ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "E01A3158D433C8111128A0E0FD559377";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_presult
 ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "E01A3158D433C8111128A0E0FD559377";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_result
 ascii_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const char* ascii_fingerprint; \/\/ = "E36886E162B5F94DE56276E567331D05";$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_ping_presult
@@ -616,6 +946,8 @@ authenticationToken	thrift/gen-cpp/Types_types.h	/^  std::string authenticationT
 b_running	ThriftServer/workerthread.h	/^    bool b_running;$/;"	m	class:WorkerThread
 binResult	thrift/gen-cpp/Types_types.h	/^  bool binResult :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_CallResult__isset
 binResult	thrift/gen-cpp/Types_types.h	/^  std::string binResult;$/;"	m	class:org::ssdut::sipesc::network::types::CallResult
+binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x04,0xC8,0x7A,0x0F,0x72,0x6C,0xE1,0x90,0x77,0x5E,0xC0,0xB3,0x21,0x80,0x6B,0xB4};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x04,0xC8,0x7A,0x0F,0x72,0x6C,0xE1,0x90,0x77,0x5E,0xC0,0xB3,0x21,0x80,0x6B,0xB4};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_pargs
 binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x07,0xA9,0x61,0x5F,0x83,0x7F,0x7D,0x0A,0x95,0x2B,0x59,0x5D,0xD3,0x02,0x09,0x72};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_deleteFile_args
 binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x07,0xA9,0x61,0x5F,0x83,0x7F,0x7D,0x0A,0x95,0x2B,0x59,0x5D,0xD3,0x02,0x09,0x72};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_deleteFile_pargs
 binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x07,0xA9,0x61,0x5F,0x83,0x7F,0x7D,0x0A,0x95,0x2B,0x59,0x5D,0xD3,0x02,0x09,0x72};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_downloadFile_args
@@ -646,6 +978,8 @@ binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t bina
 binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xC6,0x37,0xAC,0x5B,0x12,0xBA,0x9B,0x2A,0x2B,0xE3,0x83,0x29,0xF2,0x24,0x41,0x5D};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_getPublicUserInfo_result
 binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xCE,0xC3,0xBC,0x7F,0x4D,0x39,0x89,0x77,0x48,0x41,0xC1,0xC8,0x24,0xDE,0x67,0x04};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_downloadFile_presult
 binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xCE,0xC3,0xBC,0x7F,0x4D,0x39,0x89,0x77,0x48,0x41,0xC1,0xC8,0x24,0xDE,0x67,0x04};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_downloadFile_result
+binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xD9,0xD3,0xB4,0x42,0x1B,0x1F,0x23,0xCB,0x40,0x63,0xC8,0x0B,0x48,0x4E,0x79,0x09};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_presult
+binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xD9,0xD3,0xB4,0x42,0x1B,0x1F,0x23,0xCB,0x40,0x63,0xC8,0x0B,0x48,0x4E,0x79,0x09};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_result
 binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xE0,0x1A,0x31,0x58,0xD4,0x33,0xC8,0x11,0x11,0x28,0xA0,0xE0,0xFD,0x55,0x93,0x77};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_presult
 binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xE0,0x1A,0x31,0x58,0xD4,0x33,0xC8,0x11,0x11,0x28,0xA0,0xE0,0xFD,0x55,0x93,0x77};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_result
 binary_fingerprint	thrift/gen-cpp/NetworkService.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xE3,0x68,0x86,0xE1,0x62,0xB5,0xF9,0x4D,0xE5,0x62,0x76,0xE5,0x67,0x33,0x1D,0x05};$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_ping_presult
@@ -680,11 +1014,17 @@ binary_fingerprint	thrift/gen-cpp/Types_types.h	/^  static const uint8_t binary_
 binary_fingerprint	thrift/gen-cpp/Types_types.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xFE,0x98,0x09,0x52,0x25,0xEE,0x24,0x7A,0xF7,0xC9,0x73,0x26,0xC8,0x3D,0xA5,0x97};$/;"	m	class:org::ssdut::sipesc::network::types::Data
 boolResult	thrift/gen-cpp/Types_types.h	/^  bool boolResult :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_CallResult__isset
 boolResult	thrift/gen-cpp/Types_types.h	/^  bool boolResult;$/;"	m	class:org::ssdut::sipesc::network::types::CallResult
+buttonBox	ThriftClient/ui_registdialog.h	/^    QDialogButtonBox *buttonBox;$/;"	m	class:Ui_RegistDialog
 byteResult	thrift/gen-cpp/Types_types.h	/^  bool byteResult :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_CallResult__isset
 byteResult	thrift/gen-cpp/Types_types.h	/^  int8_t byteResult;$/;"	m	class:org::ssdut::sipesc::network::types::CallResult
 calculate	ThriftServer/CppServer.cpp	/^  int32_t calculate(const int32_t logid, const Work& work) {$/;"	f	class:CalculatorHandler
+callMethod	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^::callMethod(MExtensionObject* extension, const QString& extensionName, const QString& methodName, QList<void*>& params)$/;"	f	class:OrgSsdutPluginHelloworldPlugin
+callOrgSsdutPluginHelloworldFeatureMessageProviderMethod	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^static QVariant callOrgSsdutPluginHelloworldFeatureMessageProviderMethod(MExtensionObject* extension, const QString& methodName, QList<void*>& params)$/;"	f	file:
+callOrgSsdutPluginHelloworldFeatureMessageReceiverMethod	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^static QVariant callOrgSsdutPluginHelloworldFeatureMessageReceiverMethod(MExtensionObject* extension, const QString& methodName, QList<void*>& params)$/;"	f	file:
+call_helloworld	ThriftServer/taskparser.cpp	/^int call_helloworld(QString& command) {$/;"	f
 centralWidget	ThriftClient/ui_clientwindow.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_ClientWindow
 centralWidget	ThriftServer/ui_serverwindow.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_ServerWindow
+cleanup	helloworld/src/org.ssdut.plugin.helloworld.cxx	/^bool OrgSsdutPluginHelloworldPlugin::cleanup()$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 clearfilesButton	ThriftClient/ui_clientwindow.h	/^    QPushButton *clearfilesButton;$/;"	m	class:Ui_ClientWindow
 closeConnection	ThriftServer/database.cpp	/^void Database::closeConnection(){$/;"	f	class:Database
 commandLabel	ThriftClient/ui_clientwindow.h	/^    QLabel *commandLabel;$/;"	m	class:Ui_ClientWindow
@@ -692,9 +1032,15 @@ commandLineEdit	ThriftClient/ui_clientwindow.h	/^    QLineEdit *commandLineEdit;
 commandPaser	ThriftClient/clientwindow.h	/^    CommandParser* commandPaser;$/;"	m	class:ClientWindow
 comments	thrift/gen-cpp/Types_types.h	/^  Text comments;$/;"	m	class:org::ssdut::sipesc::network::types::User
 comments	thrift/gen-cpp/Types_types.h	/^  bool comments :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_User__isset
+commentsLabel	ThriftClient/ui_registdialog.h	/^    QLabel *commentsLabel;$/;"	m	class:Ui_RegistDialog
+commentsTextEdit	ThriftClient/ui_registdialog.h	/^    QTextEdit *commentsTextEdit;$/;"	m	class:Ui_RegistDialog
 content	thrift/gen-cpp/Types_types.h	/^  Bytes content;$/;"	m	class:org::ssdut::sipesc::network::types::Data
 content	thrift/gen-cpp/Types_types.h	/^  bool content :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_Data__isset
+convertData	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^int OrgSsdutPluginHelloworldPlugin::convertData(QVariant& data, const QString& type) const$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 create	ThriftServer/database.cpp	/^void Database::create(){$/;"	f	class:Database
+createObject	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^::createObject(const QString& type)$/;"	f	class:OrgSsdutPluginHelloworldPlugin
+createOrgSsdutPluginHelloworldFeatureMessageProvider	helloworld/src/org.ssdut.plugin.helloworld.cxx	/^::createOrgSsdutPluginHelloworldFeatureMessageProvider()$/;"	f	class:OrgSsdutPluginHelloworldPlugin
+createOrgSsdutPluginHelloworldFeatureMessageReceiver	helloworld/src/org.ssdut.plugin.helloworld.cxx	/^::createOrgSsdutPluginHelloworldFeatureMessageReceiver()$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 createTokenForUser	ThriftServer/usermanager.cpp	/^std::string UserManager::createTokenForUser(User user){$/;"	f	class:UserManager
 created	thrift/gen-cpp/Types_types.h	/^  Timestamp created;$/;"	m	class:org::ssdut::sipesc::network::types::User
 created	thrift/gen-cpp/Types_types.h	/^  bool created :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_User__isset
@@ -730,6 +1076,8 @@ downloadFile	thrift/gen-cpp/NetworkService.h	/^  void downloadFile( ::org::ssdut
 downloadFile	thrift/gen-cpp/NetworkService_server.skeleton.cpp	/^  void downloadFile( ::org::ssdut::sipesc::network::types::Bytes& _return, const std::string& authenticationToken, const std::string& fileName) {$/;"	f	class:NetworkServiceHandler
 email	thrift/gen-cpp/Types_types.h	/^  bool email :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_User__isset
 email	thrift/gen-cpp/Types_types.h	/^  std::string email;$/;"	m	class:org::ssdut::sipesc::network::types::User
+emailLabel	ThriftClient/ui_registdialog.h	/^    QLabel *emailLabel;$/;"	m	class:Ui_RegistDialog
+emailLineEdit	ThriftClient/ui_registdialog.h	/^    QLineEdit *emailLineEdit;$/;"	m	class:Ui_RegistDialog
 errorCode	thrift/gen-cpp/Types_types.h	/^  SipescErrorCode::type errorCode;$/;"	m	class:org::ssdut::sipesc::network::types::SipescException
 ex	thrift/gen-cpp/NetworkService.h	/^   ::org::ssdut::sipesc::network::types::SipescException ex;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_deleteFile_presult
 ex	thrift/gen-cpp/NetworkService.h	/^   ::org::ssdut::sipesc::network::types::SipescException ex;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_deleteFile_result
@@ -776,6 +1124,10 @@ ex	thrift/gen-cpp/NetworkService.h	/^  bool ex :1;$/;"	m	struct:org::ssdut::sipe
 ex	thrift/gen-cpp/NetworkService.h	/^  bool ex :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_uploadFile_presult__isset
 ex	thrift/gen-cpp/NetworkService.h	/^  bool ex :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_uploadFile_result__isset
 expiration	thrift/gen-cpp/Types_types.h	/^  Timestamp expiration;$/;"	m	class:org::ssdut::sipesc::network::types::AuthenticationResult
+feature	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^namespace feature {$/;"	n	namespace:org::ssdut::plugin::helloworld
+feature	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^namespace feature {$/;"	n	namespace:org::ssdut::plugin::helloworld
+feature	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^namespace feature {$/;"	n	namespace:org::ssdut::plugin::helloworld
+feature	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^namespace feature {$/;"	n	namespace:org::ssdut::plugin::helloworld
 fileName	thrift/gen-cpp/NetworkService.h	/^  bool fileName :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_deleteFile_args__isset
 fileName	thrift/gen-cpp/NetworkService.h	/^  bool fileName :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_downloadFile_args__isset
 fileName	thrift/gen-cpp/NetworkService.h	/^  bool fileName :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_uploadFile_args__isset
@@ -789,22 +1141,33 @@ filesListView	ThriftClient/ui_clientwindow.h	/^    QListView *filesListView;$/;"
 findAvaiableTcpThread	ThriftServer/workerthreadpool.cpp	/^WorkerThread* WorkerThreadPool:: findAvaiableTcpThread(){$/;"	f	class:WorkerThreadPool
 g_Network_constants	thrift/gen-cpp/Network_constants.cpp	/^const NetworkConstants g_Network_constants;$/;"	m	namespace:org::ssdut::sipesc::network::service	file:
 g_Types_constants	thrift/gen-cpp/Types_constants.cpp	/^const TypesConstants g_Types_constants;$/;"	m	namespace:org::ssdut::sipesc::network::types	file:
+getClassName	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline QString MessageProviderInterface::getClassName() const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+getClassName	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline QString MessageReceiverInterface::getClassName() const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
+getClassName	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline QString MessageProviderInterface::getClassName() const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+getClassName	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline QString MessageReceiverInterface::getClassName() const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
+getData	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^::getData(const QString& text) const$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 getDatabase	ThriftServer/database.cpp	/^shared_ptr<Database> DBHelper:: getDatabase() {$/;"	f	class:DBHelper
 getHandler	thrift/gen-cpp/NetworkService.h	/^  virtual NetworkServiceIf* getHandler(const ::apache::thrift::TConnectionInfo&) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceIfSingletonFactory
 getInputProtocol	thrift/gen-cpp/NetworkService.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> getInputProtocol() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 getMaxThreadSize	ThriftServer/workerthreadpool.cpp	/^int WorkerThreadPool:: getMaxThreadSize(){$/;"	f	class:WorkerThreadPool
+getMessage	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline QString MessageProvider::getMessage() const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+getMessage	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline QString MessageProvider::getMessage() const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+getMessage	helloworld/src/messageproviderimpl.cxx	/^QString MessageProviderImpl:: getMessage() const$/;"	f	class:MessageProviderImpl
 getOutputProtocol	thrift/gen-cpp/NetworkService.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> getOutputProtocol() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
+getPluginXml	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^QByteArray OrgSsdutPluginHelloworldPlugin::getPluginXml() const$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 getProcessor	thrift/gen-cpp/NetworkService.cpp	/^::boost::shared_ptr< ::apache::thrift::TProcessor > NetworkServiceProcessorFactory::getProcessor(const ::apache::thrift::TConnectionInfo& connInfo) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceProcessorFactory
-getPublicUserInfo	ThriftServer/networkservicehandler.h	/^      void getPublicUserInfo( ::org::ssdut::sipesc::network::types::PublicUserInfo& _return, const std::string& username) {$/;"	f	class:NetworkServiceHandler
+getPublicUserInfo	ThriftServer/networkservicehandler.cpp	/^void NetworkServiceHandler::getPublicUserInfo( ::org::ssdut::sipesc::network::types::PublicUserInfo& _return, const std::string& username) {$/;"	f	class:NetworkServiceHandler
 getPublicUserInfo	ThriftServer/userservicehandler.h	/^ void getPublicUserInfo( ::org::ssdut::sipesc::network::types::PublicUserInfo& _return, const std::string& username) {$/;"	f	class:UserServiceHandler
 getPublicUserInfo	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::getPublicUserInfo( ::org::ssdut::sipesc::network::types::PublicUserInfo& _return, const std::string& username)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 getPublicUserInfo	thrift/gen-cpp/NetworkService.h	/^  void getPublicUserInfo( ::org::ssdut::sipesc::network::types::PublicUserInfo& \/* _return *\/, const std::string& \/* username *\/) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceNull
 getPublicUserInfo	thrift/gen-cpp/NetworkService.h	/^  void getPublicUserInfo( ::org::ssdut::sipesc::network::types::PublicUserInfo& _return, const std::string& username) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceMultiface
 getPublicUserInfo	thrift/gen-cpp/NetworkService_server.skeleton.cpp	/^  void getPublicUserInfo( ::org::ssdut::sipesc::network::types::PublicUserInfo& _return, const std::string& username) {$/;"	f	class:NetworkServiceHandler
+getRequiredFeatures	helloworld/src/org.ssdut.plugin.helloworld.cxx	/^getRequiredFeatures() const$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 getStaticMetaObject	ThriftClient/moc_clientwindow.cpp	/^const QMetaObject &ClientWindow::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:ClientWindow
 getStaticMetaObject	ThriftClient/moc_commandparser.cpp	/^const QMetaObject &CommandParser::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:CommandParser
 getStaticMetaObject	ThriftClient/moc_globals.cpp	/^const QMetaObject &Globals::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:Globals
 getStaticMetaObject	ThriftClient/moc_logindialog.cpp	/^const QMetaObject &LoginDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:LoginDialog
+getStaticMetaObject	ThriftClient/moc_registdialog.cpp	/^const QMetaObject &RegistDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:RegistDialog
 getStaticMetaObject	ThriftServer/moc_serverwindow.cpp	/^const QMetaObject &ServerWindow::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:ServerWindow
 getStaticMetaObject	ThriftServer/moc_taskmanager.cpp	/^const QMetaObject &TaskManager::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:TaskManager
 getStaticMetaObject	ThriftServer/moc_taskparser.cpp	/^const QMetaObject &TaskParser::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:TaskParser
@@ -812,7 +1175,7 @@ getStaticMetaObject	ThriftServer/moc_usermanager.cpp	/^const QMetaObject &UserMa
 getStaticMetaObject	ThriftServer/moc_workerthread.cpp	/^const QMetaObject &WorkerThread::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:WorkerThread
 getStaticMetaObject	ThriftServer/moc_workerthreadpool.cpp	/^const QMetaObject &WorkerThreadPool::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:WorkerThreadPool
 getStruct	ThriftServer/CppServer.cpp	/^  void getStruct(SharedStruct &ret, const int32_t logid) {$/;"	f	class:CalculatorHandler
-getTask	ThriftServer/networkservicehandler.h	/^      void getTask( ::org::ssdut::sipesc::network::types::Task& _return, const std::string& authenticationToken, const  ::org::ssdut::sipesc::network::types::ID taskId) {$/;"	f	class:NetworkServiceHandler
+getTask	ThriftServer/networkservicehandler.cpp	/^void NetworkServiceHandler::getTask( ::org::ssdut::sipesc::network::types::Task& _return, const std::string& authenticationToken, const  ::org::ssdut::sipesc::network::types::ID taskId) {$/;"	f	class:NetworkServiceHandler
 getTask	ThriftServer/taskmanager.cpp	/^Task TaskManager::getTask(ID taskId){$/;"	f	class:TaskManager
 getTask	ThriftServer/taskservicehandler.h	/^  void getTask( ::org::ssdut::sipesc::network::types::Task& _return, const std::string& authenticationToken, const  ::org::ssdut::sipesc::network::types::TaskId taskId) {$/;"	f	class:TaskServiceHandler
 getTask	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::getTask( ::org::ssdut::sipesc::network::types::Task& _return, const std::string& authenticationToken, const  ::org::ssdut::sipesc::network::types::ID taskId)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
@@ -820,9 +1183,10 @@ getTask	thrift/gen-cpp/NetworkService.h	/^  void getTask( ::org::ssdut::sipesc::
 getTask	thrift/gen-cpp/NetworkService.h	/^  void getTask( ::org::ssdut::sipesc::network::types::Task& _return, const std::string& authenticationToken, const  ::org::ssdut::sipesc::network::types::ID taskId) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceMultiface
 getTask	thrift/gen-cpp/NetworkService_server.skeleton.cpp	/^  void getTask( ::org::ssdut::sipesc::network::types::Task& _return, const std::string& authenticationToken, const  ::org::ssdut::sipesc::network::types::ID taskId) {$/;"	f	class:NetworkServiceHandler
 getTaskManager	ThriftServer/taskmanager.cpp	/^shared_ptr<TaskManager> TaskManagerHelper:: getTaskManager() {$/;"	f	class:TaskManagerHelper
+getTextStringForId	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^::getTextStringForId(qint32 id) const$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 getThreadSize	ThriftServer/workerthreadpool.cpp	/^int  WorkerThreadPool::getThreadSize(){$/;"	f	class:WorkerThreadPool
 getUser	ThriftServer/database.cpp	/^User Database::getUser(const std::string& userName){$/;"	f	class:Database
-getUser	ThriftServer/networkservicehandler.h	/^      void getUser( ::org::ssdut::sipesc::network::types::User& _return, const std::string& authenticationToken) {$/;"	f	class:NetworkServiceHandler
+getUser	ThriftServer/networkservicehandler.cpp	/^void NetworkServiceHandler::getUser( ::org::ssdut::sipesc::network::types::User& _return, const std::string& authenticationToken) {$/;"	f	class:NetworkServiceHandler
 getUser	ThriftServer/userservicehandler.h	/^ void getUser( ::org::ssdut::sipesc::network::types::User& _return, const std::string& authenticationToken) {$/;"	f	class:UserServiceHandler
 getUser	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::getUser( ::org::ssdut::sipesc::network::types::User& _return, const std::string& authenticationToken)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 getUser	thrift/gen-cpp/NetworkService.h	/^  void getUser( ::org::ssdut::sipesc::network::types::User& \/* _return *\/, const std::string& \/* authenticationToken *\/) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceNull
@@ -830,12 +1194,26 @@ getUser	thrift/gen-cpp/NetworkService.h	/^  void getUser( ::org::ssdut::sipesc::
 getUser	thrift/gen-cpp/NetworkService_server.skeleton.cpp	/^  void getUser( ::org::ssdut::sipesc::network::types::User& _return, const std::string& authenticationToken) {$/;"	f	class:NetworkServiceHandler
 getUserByToken	ThriftServer/usermanager.cpp	/^User UserManager::getUserByToken(string token){$/;"	f	class:UserManager
 getUserManager	ThriftServer/usermanager.cpp	/^shared_ptr<UserManager> UserManagerHelper:: getUserManager() {$/;"	f	class:UserManagerHelper
+getUuid	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline QUuid MessageProviderInterface::getUuid()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+getUuid	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline QUuid MessageReceiverInterface::getUuid()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
+getUuid	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline QUuid MessageProviderInterface::getUuid()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+getUuid	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline QUuid MessageReceiverInterface::getUuid()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
 handlerFactory_	thrift/gen-cpp/NetworkService.h	/^  ::boost::shared_ptr< NetworkServiceIfFactory > handlerFactory_;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkServiceProcessorFactory
+helloworld	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^namespace helloworld {$/;"	n	namespace:org::ssdut::plugin
+helloworld	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^namespace helloworld {$/;"	n	namespace:org::ssdut::plugin
+helloworld	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^namespace helloworld {$/;"	n	namespace:org::ssdut::plugin
+helloworld	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^namespace helloworld {$/;"	n	namespace:org::ssdut::plugin
 horizontalLayout	ThriftClient/ui_logindialog.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_LoginDialog
+horizontalLayout	ThriftClient/ui_registdialog.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_RegistDialog
 horizontalLayout_2	ThriftClient/ui_clientwindow.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_ClientWindow
 horizontalLayout_2	ThriftClient/ui_logindialog.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_LoginDialog
+horizontalLayout_2	ThriftClient/ui_registdialog.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_RegistDialog
 horizontalLayout_3	ThriftClient/ui_clientwindow.h	/^    QHBoxLayout *horizontalLayout_3;$/;"	m	class:Ui_ClientWindow
 horizontalLayout_3	ThriftClient/ui_logindialog.h	/^    QHBoxLayout *horizontalLayout_3;$/;"	m	class:Ui_LoginDialog
+horizontalLayout_3	ThriftClient/ui_registdialog.h	/^    QHBoxLayout *horizontalLayout_3;$/;"	m	class:Ui_RegistDialog
+horizontalLayout_4	ThriftClient/ui_registdialog.h	/^    QHBoxLayout *horizontalLayout_4;$/;"	m	class:Ui_RegistDialog
+horizontalLayout_5	ThriftClient/ui_registdialog.h	/^    QHBoxLayout *horizontalLayout_5;$/;"	m	class:Ui_RegistDialog
+horizontalLayout_6	ThriftClient/ui_registdialog.h	/^    QHBoxLayout *horizontalLayout_6;$/;"	m	class:Ui_RegistDialog
 i16Result	thrift/gen-cpp/Types_types.h	/^  bool i16Result :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_CallResult__isset
 i16Result	thrift/gen-cpp/Types_types.h	/^  int16_t i16Result;$/;"	m	class:org::ssdut::sipesc::network::types::CallResult
 i32Result	thrift/gen-cpp/Types_types.h	/^  bool i32Result :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_CallResult__isset
@@ -847,18 +1225,41 @@ id	thrift/gen-cpp/Types_types.h	/^  bool id :1;$/;"	m	struct:org::ssdut::sipesc:
 iface_	thrift/gen-cpp/NetworkService.h	/^  boost::shared_ptr<NetworkServiceIf> iface_;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkServiceIfSingletonFactory
 iface_	thrift/gen-cpp/NetworkService.h	/^  boost::shared_ptr<NetworkServiceIf> iface_;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
 ifaces_	thrift/gen-cpp/NetworkService.h	/^  std::vector<boost::shared_ptr<NetworkServiceIf> > ifaces_;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkServiceMultiface
+info_arch	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_version	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+inherits	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline bool MessageProviderInterface::inherits(const QString& type) const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+inherits	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline bool MessageReceiverInterface::inherits(const QString& type) const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
+inherits	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline bool MessageProviderInterface::inherits(const QString& type) const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+inherits	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline bool MessageReceiverInterface::inherits(const QString& type) const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
 initServer	ThriftServer/serverwindow.cpp	/^void ServerWindow::initServer(int workerCount, int port){$/;"	f	class:ServerWindow
 initServices	ThriftClient/globals.cpp	/^void Globals::initServices(string host, int port){$/;"	f	class:Globals
+initialize	helloworld/src/org.ssdut.plugin.helloworld.cxx	/^bool OrgSsdutPluginHelloworldPlugin::initialize()$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 inputFileNames	thrift/gen-cpp/Types_types.h	/^  bool inputFileNames :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_Task__isset
 inputFileNames	thrift/gen-cpp/Types_types.h	/^  std::vector<std::string>  inputFileNames;$/;"	m	class:org::ssdut::sipesc::network::types::Task
 iprot_	thrift/gen-cpp/NetworkService.h	/^  ::apache::thrift::protocol::TProtocol* iprot_;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 isAvaiable	ThriftServer/workerthread.cpp	/^bool WorkerThread::isAvaiable(){$/;"	f	class:WorkerThread
+isInstanceOf	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline bool MessageProviderInterface::isInstanceOf(const QUuid& uuid) const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+isInstanceOf	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline bool MessageReceiverInterface::isInstanceOf(const QUuid& uuid) const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
+isInstanceOf	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline bool MessageProviderInterface::isInstanceOf(const QUuid& uuid) const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+isInstanceOf	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline bool MessageReceiverInterface::isInstanceOf(const QUuid& uuid) const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
 labelPassword	ThriftClient/ui_logindialog.h	/^    QLabel *labelPassword;$/;"	m	class:Ui_LoginDialog
 labelUserName	ThriftClient/ui_logindialog.h	/^    QLabel *labelUserName;$/;"	m	class:Ui_LoginDialog
 layoutWidget	ThriftClient/ui_logindialog.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_LoginDialog
+layoutWidget	ThriftClient/ui_registdialog.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_RegistDialog
 layoutWidget1	ThriftClient/ui_logindialog.h	/^    QWidget *layoutWidget1;$/;"	m	class:Ui_LoginDialog
+layoutWidget1	ThriftClient/ui_registdialog.h	/^    QWidget *layoutWidget1;$/;"	m	class:Ui_RegistDialog
 layoutWidget2	ThriftClient/ui_logindialog.h	/^    QWidget *layoutWidget2;$/;"	m	class:Ui_LoginDialog
-listTasks	ThriftServer/networkservicehandler.h	/^      void listTasks(std::vector< ::org::ssdut::sipesc::network::types::Task> & _return, const std::string& authenticationToken) {$/;"	f	class:NetworkServiceHandler
+layoutWidget2	ThriftClient/ui_registdialog.h	/^    QWidget *layoutWidget2;$/;"	m	class:Ui_RegistDialog
+layoutWidget3	ThriftClient/ui_registdialog.h	/^    QWidget *layoutWidget3;$/;"	m	class:Ui_RegistDialog
+layoutWidget4	ThriftClient/ui_registdialog.h	/^    QWidget *layoutWidget4;$/;"	m	class:Ui_RegistDialog
+layoutWidget5	ThriftClient/ui_registdialog.h	/^    QWidget *layoutWidget5;$/;"	m	class:Ui_RegistDialog
+listTasks	ThriftServer/networkservicehandler.cpp	/^void NetworkServiceHandler::listTasks(std::vector< ::org::ssdut::sipesc::network::types::Task> & _return, const std::string& authenticationToken) {$/;"	f	class:NetworkServiceHandler
 listTasks	ThriftServer/taskservicehandler.h	/^  void listTasks(std::vector< ::org::ssdut::sipesc::network::types::Task> & _return, const std::string& authenticationToken) {$/;"	f	class:TaskServiceHandler
 listTasks	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::listTasks(std::vector< ::org::ssdut::sipesc::network::types::Task> & _return, const std::string& authenticationToken)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 listTasks	thrift/gen-cpp/NetworkService.h	/^  void listTasks(std::vector< ::org::ssdut::sipesc::network::types::Task> & \/* _return *\/, const std::string& \/* authenticationToken *\/) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceNull
@@ -874,7 +1275,8 @@ login	thrift/gen-cpp/NetworkService.h	/^  void login( ::org::ssdut::sipesc::netw
 login	thrift/gen-cpp/NetworkService.h	/^  void login( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& username, const std::string& password) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceMultiface
 login	thrift/gen-cpp/NetworkService_server.skeleton.cpp	/^  void login( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& username, const std::string& password) {$/;"	f	class:NetworkServiceHandler
 loginPushButton	ThriftClient/ui_logindialog.h	/^    QPushButton *loginPushButton;$/;"	m	class:Ui_LoginDialog
-logout	ThriftServer/networkservicehandler.h	/^      void logout(const std::string& authenticationToken) {$/;"	f	class:NetworkServiceHandler
+logout	ThriftServer/networkservicehandler.cpp	/^void  NetworkServiceHandler::logout(const std::string& authenticationToken) {$/;"	f	class:NetworkServiceHandler
+logout	ThriftServer/usermanager.cpp	/^void UserManager::logout(const string &authenticationToken){$/;"	f	class:UserManager
 logout	ThriftServer/userservicehandler.h	/^ void logout(const std::string& authenticationToken) {$/;"	f	class:UserServiceHandler
 logout	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::logout(const std::string& authenticationToken)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 logout	thrift/gen-cpp/NetworkService.h	/^  void logout(const std::string& \/* authenticationToken *\/) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceNull
@@ -887,6 +1289,9 @@ main	ThriftClient/CppClient.cpp	/^int main(int argc, char** argv) {$/;"	f
 main	ThriftClient/main.cpp	/^int main(int argc, char** argv) {$/;"	f
 main	ThriftServer/CppServer.cpp	/^int main(int argc, char **argv) {$/;"	f
 main	ThriftServer/main.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
+main	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	helloworld/tmp/CMakeFiles/2.8.11/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
 main	thrift/gen-cpp/NetworkService_server.skeleton.cpp	/^int main(int argc, char **argv) {$/;"	f
 mainToolBar	ThriftClient/ui_clientwindow.h	/^    QToolBar *mainToolBar;$/;"	m	class:Ui_ClientWindow
 mainToolBar	ThriftServer/ui_serverwindow.h	/^    QToolBar *mainToolBar;$/;"	m	class:Ui_ServerWindow
@@ -900,6 +1305,7 @@ metaObject	ThriftClient/moc_clientwindow.cpp	/^const QMetaObject *ClientWindow::
 metaObject	ThriftClient/moc_commandparser.cpp	/^const QMetaObject *CommandParser::metaObject() const$/;"	f	class:CommandParser
 metaObject	ThriftClient/moc_globals.cpp	/^const QMetaObject *Globals::metaObject() const$/;"	f	class:Globals
 metaObject	ThriftClient/moc_logindialog.cpp	/^const QMetaObject *LoginDialog::metaObject() const$/;"	f	class:LoginDialog
+metaObject	ThriftClient/moc_registdialog.cpp	/^const QMetaObject *RegistDialog::metaObject() const$/;"	f	class:RegistDialog
 metaObject	ThriftServer/moc_serverwindow.cpp	/^const QMetaObject *ServerWindow::metaObject() const$/;"	f	class:ServerWindow
 metaObject	ThriftServer/moc_taskmanager.cpp	/^const QMetaObject *TaskManager::metaObject() const$/;"	f	class:TaskManager
 metaObject	ThriftServer/moc_taskparser.cpp	/^const QMetaObject *TaskParser::metaObject() const$/;"	f	class:TaskParser
@@ -908,6 +1314,9 @@ metaObject	ThriftServer/moc_workerthread.cpp	/^const QMetaObject *WorkerThread::
 metaObject	ThriftServer/moc_workerthreadpool.cpp	/^const QMetaObject *WorkerThreadPool::metaObject() const$/;"	f	class:WorkerThreadPool
 name	thrift/gen-cpp/Types_types.h	/^  bool name :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_User__isset
 name	thrift/gen-cpp/Types_types.h	/^  std::string name;$/;"	m	class:org::ssdut::sipesc::network::types::User
+nameLable	ThriftClient/ui_registdialog.h	/^    QLabel *nameLable;$/;"	m	class:Ui_RegistDialog
+nameLineEdit	ThriftClient/ui_registdialog.h	/^    QLineEdit *nameLineEdit;$/;"	m	class:Ui_RegistDialog
+need_more_than_nothing	helloworld/tmp/org.ssdut.plugin.helloworld_1.0.0_automoc.cpp	/^enum some_compilers { need_more_than_nothing };$/;"	e	enum:some_compilers	file:
 network	thrift/gen-cpp/NetworkService.cpp	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org::ssdut::sipesc	file:
 network	thrift/gen-cpp/NetworkService.h	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org::ssdut::sipesc
 network	thrift/gen-cpp/Network_constants.cpp	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org::ssdut::sipesc	file:
@@ -922,6 +1331,9 @@ networkService	ThriftClient/globals.cpp	/^shared_ptr<NetworkServiceClient> Globa
 networkService	ThriftClient/globals.h	/^     static shared_ptr<NetworkServiceClient> networkService;$/;"	m	class:Globals
 newTaskAdded	ThriftServer/moc_taskmanager.cpp	/^void TaskManager::newTaskAdded(qint32 _t1)$/;"	f	class:TaskManager
 newTaskAssigned	ThriftServer/moc_workerthread.cpp	/^void WorkerThread::newTaskAssigned(qint32 _t1)$/;"	f	class:WorkerThread
+newUser	thrift/gen-cpp/NetworkService.h	/^   ::org::ssdut::sipesc::network::types::User newUser;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+newUser	thrift/gen-cpp/NetworkService.h	/^  bool newUser :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_regist_args__isset
+newUser	thrift/gen-cpp/NetworkService.h	/^  const  ::org::ssdut::sipesc::network::types::User* newUser;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_pargs
 nextTask	thrift/gen-cpp/Types_types.h	/^  ID nextTask;$/;"	m	class:org::ssdut::sipesc::network::types::Task
 nextTask	thrift/gen-cpp/Types_types.h	/^  bool nextTask :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_Task__isset
 nextTaskId	ThriftServer/taskmanager.h	/^    ID nextTaskId; \/\/下一个任务的ID号，这个ID最好持久化到数据库中，这样下次启动的时候仍然不会重复之前的ID。$/;"	m	class:TaskManager
@@ -930,8 +1342,12 @@ onTaskDone	ThriftServer/taskmanager.cpp	/^void TaskManager::onTaskDone(ID id){$/
 onUpdateStatus	ThriftClient/clientwindow.cpp	/^void  ClientWindow::onUpdateStatus(QString message){$/;"	f	class:ClientWindow
 onWorkListener	ThriftServer/workerthread.h	/^    TaskListener *  onWorkListener;$/;"	m	class:WorkerThread
 on_addFileButton_clicked	ThriftClient/clientwindow.cpp	/^void ClientWindow::on_addFileButton_clicked()$/;"	f	class:ClientWindow
+on_buttonBox_accepted	ThriftClient/registdialog.cpp	/^void RegistDialog::on_buttonBox_accepted()$/;"	f	class:RegistDialog
 on_clearfilesButton_clicked	ThriftClient/clientwindow.cpp	/^void ClientWindow::on_clearfilesButton_clicked()$/;"	f	class:ClientWindow
 on_loginPushButton_clicked	ThriftClient/logindialog.cpp	/^void LoginDialog::on_loginPushButton_clicked()$/;"	f	class:LoginDialog
+on_loginPushButton_clicked	ThriftClient/logindialog.cpp	/^void LoginDialog::on_loginPushButton_clicked(bool checked)$/;"	f	class:LoginDialog
+on_registPushButton_clicked	ThriftClient/logindialog.cpp	/^void LoginDialog::on_registPushButton_clicked()$/;"	f	class:LoginDialog
+on_registPushButton_clicked	ThriftClient/logindialog.cpp	/^void LoginDialog::on_registPushButton_clicked(bool checked)$/;"	f	class:LoginDialog
 on_removeFileButton_clicked	ThriftClient/clientwindow.cpp	/^void ClientWindow::on_removeFileButton_clicked()$/;"	f	class:ClientWindow
 on_sendFilesButton_clicked	ThriftClient/clientwindow.cpp	/^void ClientWindow::on_sendFilesButton_clicked()$/;"	f	class:ClientWindow
 on_submitButton_clicked	ThriftClient/clientwindow.cpp	/^void ClientWindow::on_submitButton_clicked()$/;"	f	class:ClientWindow
@@ -958,6 +1374,8 @@ operator !=	thrift/gen-cpp/NetworkService.h	/^  bool operator != (const NetworkS
 operator !=	thrift/gen-cpp/NetworkService.h	/^  bool operator != (const NetworkService_postTask_result &rhs) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_postTask_result
 operator !=	thrift/gen-cpp/NetworkService.h	/^  bool operator != (const NetworkService_refreshAuthentication_args &rhs) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_args
 operator !=	thrift/gen-cpp/NetworkService.h	/^  bool operator != (const NetworkService_refreshAuthentication_result &rhs) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_result
+operator !=	thrift/gen-cpp/NetworkService.h	/^  bool operator != (const NetworkService_regist_args &rhs) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+operator !=	thrift/gen-cpp/NetworkService.h	/^  bool operator != (const NetworkService_regist_result &rhs) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_result
 operator !=	thrift/gen-cpp/NetworkService.h	/^  bool operator != (const NetworkService_uploadFile_args &rhs) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_args
 operator !=	thrift/gen-cpp/NetworkService.h	/^  bool operator != (const NetworkService_uploadFile_result &rhs) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_result
 operator !=	thrift/gen-cpp/Types_types.h	/^  bool operator != (const AuthenticationResult &rhs) const {$/;"	f	class:org::ssdut::sipesc::network::types::AuthenticationResult
@@ -974,6 +1392,14 @@ operator <<	thrift/gen-cpp/Types_types.cpp	/^std::ostream& operator<<(std::ostre
 operator <<	thrift/gen-cpp/Types_types.cpp	/^std::ostream& operator<<(std::ostream& out, const SipescException& obj) {$/;"	f	namespace:org::ssdut::sipesc::network::types
 operator <<	thrift/gen-cpp/Types_types.cpp	/^std::ostream& operator<<(std::ostream& out, const Task& obj) {$/;"	f	namespace:org::ssdut::sipesc::network::types
 operator <<	thrift/gen-cpp/Types_types.cpp	/^std::ostream& operator<<(std::ostream& out, const User& obj) {$/;"	f	namespace:org::ssdut::sipesc::network::types
+operator =	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider& MessageProvider::operator=(const MExtension& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+operator =	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider& MessageProvider::operator=(const MessageProvider& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+operator =	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver& MessageReceiver::operator=(const MExtension& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+operator =	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver& MessageReceiver::operator=(const MessageReceiver& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+operator =	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider& MessageProvider::operator=(const MExtension& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+operator =	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider& MessageProvider::operator=(const MessageProvider& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+operator =	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver& MessageReceiver::operator=(const MExtension& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+operator =	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver& MessageReceiver::operator=(const MessageReceiver& obj)$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
 operator =	thrift/gen-cpp/Types_types.cpp	/^AuthenticationResult& AuthenticationResult::operator=(const AuthenticationResult& other14) {$/;"	f	class:org::ssdut::sipesc::network::types::AuthenticationResult
 operator =	thrift/gen-cpp/Types_types.cpp	/^CallResult& CallResult::operator=(const CallResult& other2) {$/;"	f	class:org::ssdut::sipesc::network::types::CallResult
 operator =	thrift/gen-cpp/Types_types.cpp	/^Data& Data::operator=(const Data& other7) {$/;"	f	class:org::ssdut::sipesc::network::types::Data
@@ -1003,6 +1429,8 @@ operator ==	thrift/gen-cpp/NetworkService.h	/^  bool operator == (const NetworkS
 operator ==	thrift/gen-cpp/NetworkService.h	/^  bool operator == (const NetworkService_postTask_result & rhs) const$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_postTask_result
 operator ==	thrift/gen-cpp/NetworkService.h	/^  bool operator == (const NetworkService_refreshAuthentication_args & rhs) const$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_args
 operator ==	thrift/gen-cpp/NetworkService.h	/^  bool operator == (const NetworkService_refreshAuthentication_result & rhs) const$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_result
+operator ==	thrift/gen-cpp/NetworkService.h	/^  bool operator == (const NetworkService_regist_args & rhs) const$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+operator ==	thrift/gen-cpp/NetworkService.h	/^  bool operator == (const NetworkService_regist_result & rhs) const$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_result
 operator ==	thrift/gen-cpp/NetworkService.h	/^  bool operator == (const NetworkService_uploadFile_args & rhs) const$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_args
 operator ==	thrift/gen-cpp/NetworkService.h	/^  bool operator == (const NetworkService_uploadFile_result & rhs) const$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_result
 operator ==	thrift/gen-cpp/Types_types.h	/^  bool operator == (const AuthenticationResult & rhs) const$/;"	f	class:org::ssdut::sipesc::network::types::AuthenticationResult
@@ -1013,6 +1441,10 @@ operator ==	thrift/gen-cpp/Types_types.h	/^  bool operator == (const SipescExcep
 operator ==	thrift/gen-cpp/Types_types.h	/^  bool operator == (const Task & rhs) const$/;"	f	class:org::ssdut::sipesc::network::types::Task
 operator ==	thrift/gen-cpp/Types_types.h	/^  bool operator == (const User & rhs) const$/;"	f	class:org::ssdut::sipesc::network::types::User
 oprot_	thrift/gen-cpp/NetworkService.h	/^  ::apache::thrift::protocol::TProtocol* oprot_;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkServiceClient
+org	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^namespace org {$/;"	n
+org	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^namespace org {$/;"	n
+org	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^namespace org {$/;"	n
+org	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^namespace org {$/;"	n
 org	thrift/gen-cpp/NetworkService.cpp	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	file:
 org	thrift/gen-cpp/NetworkService.h	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n
 org	thrift/gen-cpp/Network_constants.cpp	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	file:
@@ -1028,9 +1460,14 @@ outputFileNames	thrift/gen-cpp/Types_types.h	/^  std::vector<std::string>  outpu
 parse	ThriftClient/commandpasrer.cpp	/^void CommandParser::parse(QString rawCommand){$/;"	f	class:CommandParser
 parse	ThriftServer/taskparser.cpp	/^void  TaskParser::parse(Task *task) throw(SipescException){$/;"	f	class:TaskParser
 password	thrift/gen-cpp/NetworkService.h	/^  bool password :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_login_args__isset
+password	thrift/gen-cpp/NetworkService.h	/^  bool password :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_regist_args__isset
 password	thrift/gen-cpp/NetworkService.h	/^  const std::string* password;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_login_pargs
+password	thrift/gen-cpp/NetworkService.h	/^  const std::string* password;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_pargs
 password	thrift/gen-cpp/NetworkService.h	/^  std::string password;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_login_args
+password	thrift/gen-cpp/NetworkService.h	/^  std::string password;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+passwordLabel	ThriftClient/ui_registdialog.h	/^    QLabel *passwordLabel;$/;"	m	class:Ui_RegistDialog
 passwordLineEdit	ThriftClient/ui_logindialog.h	/^    QLineEdit *passwordLineEdit;$/;"	m	class:Ui_LoginDialog
+passwordLineEdit	ThriftClient/ui_registdialog.h	/^    QLineEdit *passwordLineEdit;$/;"	m	class:Ui_RegistDialog
 ping	ThriftServer/CppServer.cpp	/^  void ping() {$/;"	f	class:CalculatorHandler
 ping	ThriftServer/networkservicehandler.h	/^      void ping( ::org::ssdut::sipesc::network::types::CallResult& _return) {$/;"	f	class:NetworkServiceHandler
 ping	ThriftServer/taskservicehandler.h	/^  void ping( ::org::ssdut::sipesc::network::types::CallResult& _return) {$/;"	f	class:TaskServiceHandler
@@ -1039,6 +1476,10 @@ ping	thrift/gen-cpp/NetworkService.h	/^  void ping( ::org::ssdut::sipesc::networ
 ping	thrift/gen-cpp/NetworkService.h	/^  void ping( ::org::ssdut::sipesc::network::types::CallResult& _return) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceMultiface
 ping	thrift/gen-cpp/NetworkService_server.skeleton.cpp	/^  void ping( ::org::ssdut::sipesc::network::types::CallResult& _return) {$/;"	f	class:NetworkServiceHandler
 piprot_	thrift/gen-cpp/NetworkService.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> piprot_;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkServiceClient
+plugin	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^namespace plugin {$/;"	n	namespace:org::ssdut
+plugin	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^namespace plugin {$/;"	n	namespace:org::ssdut
+plugin	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^namespace plugin {$/;"	n	namespace:org::ssdut
+plugin	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^namespace plugin {$/;"	n	namespace:org::ssdut
 poprot_	thrift/gen-cpp/NetworkService.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> poprot_;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 port	ThriftServer/serverwindow.h	/^     int port;$/;"	m	class:ServerWindow
 postCommand	ThriftServer/taskservicehandler.h	/^   void postCommand( ::org::ssdut::sipesc::network::types::CallResult& _return, const std::string& authenticationToken, const std::string& rawCommand) {$/;"	f	class:TaskServiceHandler
@@ -1051,6 +1492,8 @@ previousTask	thrift/gen-cpp/Types_types.h	/^  ID previousTask;$/;"	m	class:org::
 previousTask	thrift/gen-cpp/Types_types.h	/^  bool previousTask :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_Task__isset
 privilege	thrift/gen-cpp/Types_types.h	/^  PrivilegeLevel::type privilege;$/;"	m	class:org::ssdut::sipesc::network::types::User
 privilege	thrift/gen-cpp/Types_types.h	/^  bool privilege :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_User__isset
+privilegeLevelComboBox	ThriftClient/ui_registdialog.h	/^    QComboBox *privilegeLevelComboBox;$/;"	m	class:Ui_RegistDialog
+privilegeLevelLabel	ThriftClient/ui_registdialog.h	/^    QLabel *privilegeLevelLabel;$/;"	m	class:Ui_RegistDialog
 processMap_	thrift/gen-cpp/NetworkService.h	/^  ProcessMap processMap_;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
 process_deleteFile	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceProcessor::process_deleteFile(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
 process_downloadFile	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceProcessor::process_downloadFile(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
@@ -1063,16 +1506,20 @@ process_logout	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceProcessor:
 process_ping	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceProcessor::process_ping(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
 process_postTask	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceProcessor::process_postTask(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
 process_refreshAuthentication	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceProcessor::process_refreshAuthentication(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
+process_regist	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceProcessor::process_regist(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
 process_uploadFile	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceProcessor::process_uploadFile(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceProcessor
 processor	ThriftServer/serverwindow.h	/^     shared_ptr<TProcessor> processor;$/;"	m	class:ServerWindow
 protocol	ThriftClient/globals.cpp	/^shared_ptr<TProtocol>  Globals:: protocol;$/;"	m	class:Globals	file:
 protocol	ThriftClient/globals.h	/^     static shared_ptr<TProtocol> protocol;$/;"	m	class:Globals
 protocolFactory	ThriftServer/serverwindow.h	/^     shared_ptr<TProtocolFactory> protocolFactory;$/;"	m	class:ServerWindow
 q2s	ThriftServer/database.cpp	/^extern string q2s(const QString &s)$/;"	f
+qCleanupResources_org_ssdut_plugin_helloworld	helloworld/tmp/qrc_org.ssdut.plugin.helloworld.cxx	/^int QT_MANGLE_NAMESPACE(qCleanupResources_org_ssdut_plugin_helloworld)()$/;"	f
+qInitResources_org_ssdut_plugin_helloworld	helloworld/tmp/qrc_org.ssdut.plugin.helloworld.cxx	/^int QT_MANGLE_NAMESPACE(qInitResources_org_ssdut_plugin_helloworld)()$/;"	f
 qt_meta_data_ClientWindow	ThriftClient/moc_clientwindow.cpp	/^static const uint qt_meta_data_ClientWindow[] = {$/;"	v	file:
 qt_meta_data_CommandParser	ThriftClient/moc_commandparser.cpp	/^static const uint qt_meta_data_CommandParser[] = {$/;"	v	file:
 qt_meta_data_Globals	ThriftClient/moc_globals.cpp	/^static const uint qt_meta_data_Globals[] = {$/;"	v	file:
 qt_meta_data_LoginDialog	ThriftClient/moc_logindialog.cpp	/^static const uint qt_meta_data_LoginDialog[] = {$/;"	v	file:
+qt_meta_data_RegistDialog	ThriftClient/moc_registdialog.cpp	/^static const uint qt_meta_data_RegistDialog[] = {$/;"	v	file:
 qt_meta_data_ServerWindow	ThriftServer/moc_serverwindow.cpp	/^static const uint qt_meta_data_ServerWindow[] = {$/;"	v	file:
 qt_meta_data_TaskManager	ThriftServer/moc_taskmanager.cpp	/^static const uint qt_meta_data_TaskManager[] = {$/;"	v	file:
 qt_meta_data_TaskParser	ThriftServer/moc_taskparser.cpp	/^static const uint qt_meta_data_TaskParser[] = {$/;"	v	file:
@@ -1083,6 +1530,7 @@ qt_meta_stringdata_ClientWindow	ThriftClient/moc_clientwindow.cpp	/^static const
 qt_meta_stringdata_CommandParser	ThriftClient/moc_commandparser.cpp	/^static const char qt_meta_stringdata_CommandParser[] = {$/;"	v	file:
 qt_meta_stringdata_Globals	ThriftClient/moc_globals.cpp	/^static const char qt_meta_stringdata_Globals[] = {$/;"	v	file:
 qt_meta_stringdata_LoginDialog	ThriftClient/moc_logindialog.cpp	/^static const char qt_meta_stringdata_LoginDialog[] = {$/;"	v	file:
+qt_meta_stringdata_RegistDialog	ThriftClient/moc_registdialog.cpp	/^static const char qt_meta_stringdata_RegistDialog[] = {$/;"	v	file:
 qt_meta_stringdata_ServerWindow	ThriftServer/moc_serverwindow.cpp	/^static const char qt_meta_stringdata_ServerWindow[] = {$/;"	v	file:
 qt_meta_stringdata_TaskManager	ThriftServer/moc_taskmanager.cpp	/^static const char qt_meta_stringdata_TaskManager[] = {$/;"	v	file:
 qt_meta_stringdata_TaskParser	ThriftServer/moc_taskparser.cpp	/^static const char qt_meta_stringdata_TaskParser[] = {$/;"	v	file:
@@ -1093,6 +1541,7 @@ qt_metacall	ThriftClient/moc_clientwindow.cpp	/^int ClientWindow::qt_metacall(QM
 qt_metacall	ThriftClient/moc_commandparser.cpp	/^int CommandParser::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:CommandParser
 qt_metacall	ThriftClient/moc_globals.cpp	/^int Globals::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Globals
 qt_metacall	ThriftClient/moc_logindialog.cpp	/^int LoginDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:LoginDialog
+qt_metacall	ThriftClient/moc_registdialog.cpp	/^int RegistDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:RegistDialog
 qt_metacall	ThriftServer/moc_serverwindow.cpp	/^int ServerWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ServerWindow
 qt_metacall	ThriftServer/moc_taskmanager.cpp	/^int TaskManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TaskManager
 qt_metacall	ThriftServer/moc_taskparser.cpp	/^int TaskParser::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TaskParser
@@ -1103,16 +1552,21 @@ qt_metacast	ThriftClient/moc_clientwindow.cpp	/^void *ClientWindow::qt_metacast(
 qt_metacast	ThriftClient/moc_commandparser.cpp	/^void *CommandParser::qt_metacast(const char *_clname)$/;"	f	class:CommandParser
 qt_metacast	ThriftClient/moc_globals.cpp	/^void *Globals::qt_metacast(const char *_clname)$/;"	f	class:Globals
 qt_metacast	ThriftClient/moc_logindialog.cpp	/^void *LoginDialog::qt_metacast(const char *_clname)$/;"	f	class:LoginDialog
+qt_metacast	ThriftClient/moc_registdialog.cpp	/^void *RegistDialog::qt_metacast(const char *_clname)$/;"	f	class:RegistDialog
 qt_metacast	ThriftServer/moc_serverwindow.cpp	/^void *ServerWindow::qt_metacast(const char *_clname)$/;"	f	class:ServerWindow
 qt_metacast	ThriftServer/moc_taskmanager.cpp	/^void *TaskManager::qt_metacast(const char *_clname)$/;"	f	class:TaskManager
 qt_metacast	ThriftServer/moc_taskparser.cpp	/^void *TaskParser::qt_metacast(const char *_clname)$/;"	f	class:TaskParser
 qt_metacast	ThriftServer/moc_usermanager.cpp	/^void *UserManager::qt_metacast(const char *_clname)$/;"	f	class:UserManager
 qt_metacast	ThriftServer/moc_workerthread.cpp	/^void *WorkerThread::qt_metacast(const char *_clname)$/;"	f	class:WorkerThread
 qt_metacast	ThriftServer/moc_workerthreadpool.cpp	/^void *WorkerThreadPool::qt_metacast(const char *_clname)$/;"	f	class:WorkerThreadPool
+qt_resource_data	helloworld/tmp/qrc_org.ssdut.plugin.helloworld.cxx	/^static const unsigned char qt_resource_data[] = {$/;"	v	file:
+qt_resource_name	helloworld/tmp/qrc_org.ssdut.plugin.helloworld.cxx	/^static const unsigned char qt_resource_name[] = {$/;"	v	file:
+qt_resource_struct	helloworld/tmp/qrc_org.ssdut.plugin.helloworld.cxx	/^static const unsigned char qt_resource_struct[] = {$/;"	v	file:
 qt_static_metacall	ThriftClient/moc_clientwindow.cpp	/^void ClientWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ClientWindow
 qt_static_metacall	ThriftClient/moc_commandparser.cpp	/^void CommandParser::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:CommandParser
 qt_static_metacall	ThriftClient/moc_globals.cpp	/^void Globals::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Globals
 qt_static_metacall	ThriftClient/moc_logindialog.cpp	/^void LoginDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:LoginDialog
+qt_static_metacall	ThriftClient/moc_registdialog.cpp	/^void RegistDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:RegistDialog
 qt_static_metacall	ThriftServer/moc_serverwindow.cpp	/^void ServerWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ServerWindow
 qt_static_metacall	ThriftServer/moc_taskmanager.cpp	/^void TaskManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TaskManager
 qt_static_metacall	ThriftServer/moc_taskparser.cpp	/^void TaskParser::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TaskParser
@@ -1156,6 +1610,9 @@ read	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_postTask_result
 read	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_refreshAuthentication_args::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_args
 read	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_refreshAuthentication_presult::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_presult
 read	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_refreshAuthentication_result::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_result
+read	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_regist_args::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+read	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_regist_presult::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_presult
+read	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_regist_result::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_result
 read	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_uploadFile_args::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_args
 read	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_uploadFile_presult::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_presult
 read	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_uploadFile_result::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_result
@@ -1177,20 +1634,31 @@ recv_logout	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::recv_
 recv_ping	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::recv_ping( ::org::ssdut::sipesc::network::types::CallResult& _return)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 recv_postTask	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::recv_postTask( ::org::ssdut::sipesc::network::types::CallResult& _return)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 recv_refreshAuthentication	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::recv_refreshAuthentication( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
+recv_regist	thrift/gen-cpp/NetworkService.cpp	/^bool NetworkServiceClient::recv_regist()$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 recv_uploadFile	thrift/gen-cpp/NetworkService.cpp	/^int64_t NetworkServiceClient::recv_uploadFile()$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
-refreshAuthentication	ThriftServer/networkservicehandler.h	/^      void refreshAuthentication( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& authenticationToken) {$/;"	f	class:NetworkServiceHandler
+refreshAuthentication	ThriftServer/networkservicehandler.cpp	/^void NetworkServiceHandler::refreshAuthentication( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& authenticationToken) {$/;"	f	class:NetworkServiceHandler
 refreshAuthentication	ThriftServer/userservicehandler.h	/^ void refreshAuthentication( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& authenticationToken) {$/;"	f	class:UserServiceHandler
 refreshAuthentication	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::refreshAuthentication( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& authenticationToken)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 refreshAuthentication	thrift/gen-cpp/NetworkService.h	/^  void refreshAuthentication( ::org::ssdut::sipesc::network::types::AuthenticationResult& \/* _return *\/, const std::string& \/* authenticationToken *\/) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceNull
 refreshAuthentication	thrift/gen-cpp/NetworkService.h	/^  void refreshAuthentication( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& authenticationToken) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceMultiface
 refreshAuthentication	thrift/gen-cpp/NetworkService_server.skeleton.cpp	/^  void refreshAuthentication( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& authenticationToken) {$/;"	f	class:NetworkServiceHandler
+regist	ThriftServer/database.cpp	/^ bool Database::regist(const User& newUser, const std::string& password){$/;"	f	class:Database
+regist	ThriftServer/networkservicehandler.cpp	/^bool NetworkServiceHandler::regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password){$/;"	f	class:NetworkServiceHandler
+regist	thrift/gen-cpp/NetworkService.cpp	/^bool NetworkServiceClient::regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
+regist	thrift/gen-cpp/NetworkService.h	/^  bool regist(const  ::org::ssdut::sipesc::network::types::User& \/* newUser *\/, const std::string& \/* password *\/) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceNull
+regist	thrift/gen-cpp/NetworkService.h	/^  bool regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceMultiface
+regist	thrift/gen-cpp/NetworkService_server.skeleton.cpp	/^  bool regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password) {$/;"	f	class:NetworkServiceHandler
+registPushButton	ThriftClient/ui_logindialog.h	/^    QPushButton *registPushButton;$/;"	m	class:Ui_LoginDialog
 releaseHandler	thrift/gen-cpp/NetworkService.h	/^  virtual void releaseHandler(NetworkServiceIf* \/* handler *\/) {}$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceIfSingletonFactory
 removeFileButton	ThriftClient/ui_clientwindow.h	/^    QPushButton *removeFileButton;$/;"	m	class:Ui_ClientWindow
+repeatPwdLable	ThriftClient/ui_registdialog.h	/^    QLabel *repeatPwdLable;$/;"	m	class:Ui_RegistDialog
+repeatPwdLineEdit	ThriftClient/ui_registdialog.h	/^    QLineEdit *repeatPwdLineEdit;$/;"	m	class:Ui_RegistDialog
 reset	ThriftServer/workerthread.cpp	/^void WorkerThread::reset(){$/;"	f	class:WorkerThread
 resetPushButton	ThriftClient/ui_logindialog.h	/^    QPushButton *resetPushButton;$/;"	m	class:Ui_LoginDialog
 resultCode	thrift/gen-cpp/Types_types.h	/^  ResultCode::type resultCode;$/;"	m	class:org::ssdut::sipesc::network::types::CallResult
 retranslateUi	ThriftClient/ui_clientwindow.h	/^    void retranslateUi(QMainWindow *ClientWindow)$/;"	f	class:Ui_ClientWindow
 retranslateUi	ThriftClient/ui_logindialog.h	/^    void retranslateUi(QDialog *LoginDialog)$/;"	f	class:Ui_LoginDialog
+retranslateUi	ThriftClient/ui_registdialog.h	/^    void retranslateUi(QDialog *RegistDialog)$/;"	f	class:Ui_RegistDialog
 retranslateUi	ThriftServer/ui_serverwindow.h	/^    void retranslateUi(QMainWindow *ServerWindow)$/;"	f	class:Ui_ServerWindow
 run	ThriftServer/workerthread.cpp	/^void WorkerThread::run(){$/;"	f	class:WorkerThread
 s2q	ThriftServer/database.cpp	/^extern QString s2q(const std::string &s)$/;"	f
@@ -1206,6 +1674,7 @@ send_logout	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::send_
 send_ping	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::send_ping()$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 send_postTask	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::send_postTask(const std::string& authenticationToken, const std::string& rawCommand)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 send_refreshAuthentication	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::send_refreshAuthentication(const std::string& authenticationToken)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
+send_regist	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::send_regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 send_uploadFile	thrift/gen-cpp/NetworkService.cpp	/^void NetworkServiceClient::send_uploadFile(const std::string& authenticationToken, const std::string& fileName, const int64_t size, const  ::org::ssdut::sipesc::network::types::Bytes& data)$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 service	thrift/gen-cpp/NetworkService.cpp	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org::ssdut::sipesc::network	file:
 service	thrift/gen-cpp/NetworkService.h	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org::ssdut::sipesc::network
@@ -1217,10 +1686,15 @@ setMaxThreadSize	ThriftServer/workerthreadpool.cpp	/^void WorkerThreadPool:: set
 setProtocol	thrift/gen-cpp/NetworkService.h	/^  void setProtocol(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> iprot, boost::shared_ptr< ::apache::thrift::protocol::TProtocol> oprot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 setProtocol	thrift/gen-cpp/NetworkService.h	/^  void setProtocol(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> prot) {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceClient
 setWorkListener	ThriftServer/workerthread.cpp	/^void WorkerThread:: setWorkListener(TaskListener* listener){$/;"	f	class:WorkerThread
+setupMetaTypes	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^void OrgSsdutPluginHelloworldPlugin::setupMetaTypes()$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 setupUi	ThriftClient/ui_clientwindow.h	/^    void setupUi(QMainWindow *ClientWindow)$/;"	f	class:Ui_ClientWindow
 setupUi	ThriftClient/ui_logindialog.h	/^    void setupUi(QDialog *LoginDialog)$/;"	f	class:Ui_LoginDialog
+setupUi	ThriftClient/ui_registdialog.h	/^    void setupUi(QDialog *RegistDialog)$/;"	f	class:Ui_RegistDialog
 setupUi	ThriftServer/ui_serverwindow.h	/^    void setupUi(QMainWindow *ServerWindow)$/;"	f	class:Ui_ServerWindow
 show	ThriftServer/serverwindow.cpp	/^void ServerWindow:: show(){$/;"	f	class:ServerWindow
+showMessage	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline void MessageReceiver::showMessage(const QString& message) const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+showMessage	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline void MessageReceiver::showMessage(const QString& message) const$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+showMessage	helloworld/src/messagereceiverimpl.cxx	/^void MessageReceiverImpl::showMessage(const QString& message) const{$/;"	f	class:MessageReceiverImpl
 sipesc	thrift/gen-cpp/NetworkService.cpp	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org::ssdut	file:
 sipesc	thrift/gen-cpp/NetworkService.h	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org::ssdut
 sipesc	thrift/gen-cpp/Network_constants.cpp	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org::ssdut	file:
@@ -1236,7 +1710,12 @@ size	thrift/gen-cpp/NetworkService.h	/^  const int64_t* size;$/;"	m	class:org::s
 size	thrift/gen-cpp/NetworkService.h	/^  int64_t size;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_args
 size	thrift/gen-cpp/Types_types.h	/^  bool size :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_Data__isset
 size	thrift/gen-cpp/Types_types.h	/^  int64_t size;$/;"	m	class:org::ssdut::sipesc::network::types::Data
+some_compilers	helloworld/tmp/org.ssdut.plugin.helloworld_1.0.0_automoc.cpp	/^enum some_compilers { need_more_than_nothing };$/;"	g	file:
 srcfiles	ThriftClient/clientwindow.h	/^    QStringList srcfiles;$/;"	m	class:ClientWindow
+ssdut	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^namespace ssdut {$/;"	n	namespace:org
+ssdut	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^namespace ssdut {$/;"	n	namespace:org
+ssdut	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^namespace ssdut {$/;"	n	namespace:org
+ssdut	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^namespace ssdut {$/;"	n	namespace:org
 ssdut	thrift/gen-cpp/NetworkService.cpp	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org	file:
 ssdut	thrift/gen-cpp/NetworkService.h	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org
 ssdut	thrift/gen-cpp/Network_constants.cpp	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace service {$/;"	n	namespace:org	file:
@@ -1248,12 +1727,14 @@ ssdut	thrift/gen-cpp/Types_constants.h	/^namespace org { namespace ssdut { names
 ssdut	thrift/gen-cpp/Types_types.cpp	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace types {$/;"	n	namespace:org	file:
 ssdut	thrift/gen-cpp/Types_types.h	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace types {$/;"	n	namespace:org
 start	ThriftServer/serverwindow.cpp	/^void ServerWindow::start(){$/;"	f	class:ServerWindow
+start	helloworld/src/org.ssdut.plugin.helloworld.cxx	/^void OrgSsdutPluginHelloworldPlugin::start()$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 startedTime	thrift/gen-cpp/Types_types.h	/^  Timestamp startedTime;$/;"	m	class:org::ssdut::sipesc::network::types::Task
 startedTime	thrift/gen-cpp/Types_types.h	/^  bool startedTime :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_Task__isset
 staticMetaObject	ThriftClient/moc_clientwindow.cpp	/^const QMetaObject ClientWindow::staticMetaObject = {$/;"	m	class:ClientWindow	file:
 staticMetaObject	ThriftClient/moc_commandparser.cpp	/^const QMetaObject CommandParser::staticMetaObject = {$/;"	m	class:CommandParser	file:
 staticMetaObject	ThriftClient/moc_globals.cpp	/^const QMetaObject Globals::staticMetaObject = {$/;"	m	class:Globals	file:
 staticMetaObject	ThriftClient/moc_logindialog.cpp	/^const QMetaObject LoginDialog::staticMetaObject = {$/;"	m	class:LoginDialog	file:
+staticMetaObject	ThriftClient/moc_registdialog.cpp	/^const QMetaObject RegistDialog::staticMetaObject = {$/;"	m	class:RegistDialog	file:
 staticMetaObject	ThriftServer/moc_serverwindow.cpp	/^const QMetaObject ServerWindow::staticMetaObject = {$/;"	m	class:ServerWindow	file:
 staticMetaObject	ThriftServer/moc_taskmanager.cpp	/^const QMetaObject TaskManager::staticMetaObject = {$/;"	m	class:TaskManager	file:
 staticMetaObject	ThriftServer/moc_taskparser.cpp	/^const QMetaObject TaskParser::staticMetaObject = {$/;"	m	class:TaskParser	file:
@@ -1264,6 +1745,7 @@ staticMetaObjectExtraData	ThriftClient/moc_clientwindow.cpp	/^const QMetaObjectE
 staticMetaObjectExtraData	ThriftClient/moc_commandparser.cpp	/^const QMetaObjectExtraData CommandParser::staticMetaObjectExtraData = {$/;"	m	class:CommandParser	file:
 staticMetaObjectExtraData	ThriftClient/moc_globals.cpp	/^const QMetaObjectExtraData Globals::staticMetaObjectExtraData = {$/;"	m	class:Globals	file:
 staticMetaObjectExtraData	ThriftClient/moc_logindialog.cpp	/^const QMetaObjectExtraData LoginDialog::staticMetaObjectExtraData = {$/;"	m	class:LoginDialog	file:
+staticMetaObjectExtraData	ThriftClient/moc_registdialog.cpp	/^const QMetaObjectExtraData RegistDialog::staticMetaObjectExtraData = {$/;"	m	class:RegistDialog	file:
 staticMetaObjectExtraData	ThriftServer/moc_serverwindow.cpp	/^const QMetaObjectExtraData ServerWindow::staticMetaObjectExtraData = {$/;"	m	class:ServerWindow	file:
 staticMetaObjectExtraData	ThriftServer/moc_taskmanager.cpp	/^const QMetaObjectExtraData TaskManager::staticMetaObjectExtraData = {$/;"	m	class:TaskManager	file:
 staticMetaObjectExtraData	ThriftServer/moc_taskparser.cpp	/^const QMetaObjectExtraData TaskParser::staticMetaObjectExtraData = {$/;"	m	class:TaskParser	file:
@@ -1278,6 +1760,7 @@ statusComments	thrift/gen-cpp/Types_types.h	/^  Text statusComments;$/;"	m	class
 statusComments	thrift/gen-cpp/Types_types.h	/^  bool statusComments :1;$/;"	m	struct:org::ssdut::sipesc::network::types::_Task__isset
 stop	ThriftServer/serverwindow.cpp	/^void ServerWindow::stop(){$/;"	f	class:ServerWindow
 stop	ThriftServer/workerthread.cpp	/^void WorkerThread::stop(){$/;"	f	class:WorkerThread
+stop	helloworld/src/org.ssdut.plugin.helloworld.cxx	/^void OrgSsdutPluginHelloworldPlugin::stop()$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 stopAll	ThriftServer/workerthreadpool.cpp	/^void  WorkerThreadPool::stopAll(){$/;"	f	class:WorkerThreadPool
 stopAllTasks	ThriftServer/taskmanager.cpp	/^void TaskManager::stopAllTasks(){$/;"	f	class:TaskManager
 stopedTime	thrift/gen-cpp/Types_types.h	/^  Timestamp stopedTime;$/;"	m	class:org::ssdut::sipesc::network::types::Task
@@ -1324,8 +1807,12 @@ success	thrift/gen-cpp/NetworkService.h	/^  bool success :1;$/;"	m	struct:org::s
 success	thrift/gen-cpp/NetworkService.h	/^  bool success :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_postTask_result__isset
 success	thrift/gen-cpp/NetworkService.h	/^  bool success :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_refreshAuthentication_presult__isset
 success	thrift/gen-cpp/NetworkService.h	/^  bool success :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_refreshAuthentication_result__isset
+success	thrift/gen-cpp/NetworkService.h	/^  bool success :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_regist_presult__isset
+success	thrift/gen-cpp/NetworkService.h	/^  bool success :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_regist_result__isset
 success	thrift/gen-cpp/NetworkService.h	/^  bool success :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_uploadFile_presult__isset
 success	thrift/gen-cpp/NetworkService.h	/^  bool success :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_uploadFile_result__isset
+success	thrift/gen-cpp/NetworkService.h	/^  bool success;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_result
+success	thrift/gen-cpp/NetworkService.h	/^  bool* success;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_regist_presult
 success	thrift/gen-cpp/NetworkService.h	/^  int64_t success;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_result
 success	thrift/gen-cpp/NetworkService.h	/^  int64_t* success;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_presult
 success	thrift/gen-cpp/NetworkService.h	/^  std::vector< ::org::ssdut::sipesc::network::types::Task>  success;$/;"	m	class:org::ssdut::sipesc::network::service::NetworkService_listTasks_result
@@ -1347,12 +1834,14 @@ taskManager	ThriftServer/taskmanager.h	/^    static shared_ptr<TaskManager> task
 taskPaser	ThriftServer/taskservicehandler.h	/^  TaskParser taskPaser;$/;"	m	class:TaskServiceHandler
 taskPaser	ThriftServer/workerthread.h	/^    TaskParser taskPaser;$/;"	m	class:WorkerThread
 tasks	ThriftServer/taskmanager.h	/^    QMap<ID, Task*> tasks;$/;"	m	class:TaskManager
+text	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^  const char* text;$/;"	m	struct:__anon1	file:
 threadFactory	ThriftServer/serverwindow.h	/^     shared_ptr<PosixThreadFactory> threadFactory;$/;"	m	class:ServerWindow
 threadManager	ThriftServer/serverwindow.h	/^     shared_ptr<ThreadManager> threadManager;$/;"	m	class:ServerWindow
 timer	ThriftServer/taskmanager.h	/^   QTimer * timer;$/;"	m	class:TaskManager
 token	ThriftClient/user.h	/^    QString token;$/;"	m	class:User
 transport	ThriftClient/globals.cpp	/^shared_ptr<TTransport> Globals::transport;$/;"	m	class:Globals	file:
 transport	ThriftClient/globals.h	/^     static shared_ptr<TTransport> transport;$/;"	m	class:Globals
+type	helloworld/tmp/org.ssdut.plugin.helloworld.xml.cxx	/^  int type;$/;"	m	struct:__anon1	file:
 type	thrift/gen-cpp/Types_types.h	/^  enum type {$/;"	g	struct:org::ssdut::sipesc::network::types::PrivilegeLevel
 type	thrift/gen-cpp/Types_types.h	/^  enum type {$/;"	g	struct:org::ssdut::sipesc::network::types::ResultCode
 type	thrift/gen-cpp/Types_types.h	/^  enum type {$/;"	g	struct:org::ssdut::sipesc::network::types::SipescErrorCode
@@ -1363,6 +1852,7 @@ types	thrift/gen-cpp/Types_types.cpp	/^namespace org { namespace ssdut { namespa
 types	thrift/gen-cpp/Types_types.h	/^namespace org { namespace ssdut { namespace sipesc { namespace network { namespace types {$/;"	n	namespace:org::ssdut::sipesc::network
 ui	ThriftClient/clientwindow.h	/^    Ui::ClientWindow *ui;$/;"	m	class:ClientWindow
 ui	ThriftClient/logindialog.h	/^    Ui::LoginDialog *ui;$/;"	m	class:LoginDialog
+ui	ThriftClient/registdialog.h	/^    Ui::RegistDialog *ui;$/;"	m	class:RegistDialog
 ui	ThriftServer/serverwindow.h	/^    Ui::ServerWindow *ui;$/;"	m	class:ServerWindow
 updateStatus	ThriftClient/moc_commandparser.cpp	/^void CommandParser::updateStatus(QString _t1)$/;"	f	class:CommandParser
 updateStatus	ThriftServer/moc_taskparser.cpp	/^void TaskParser::updateStatus(QString _t1)$/;"	f	class:TaskParser
@@ -1382,7 +1872,9 @@ userId	thrift/gen-cpp/Types_types.h	/^  bool userId :1;$/;"	m	struct:org::ssdut:
 userManager	ThriftServer/usermanager.cpp	/^shared_ptr<UserManager> UserManagerHelper:: userManager =  shared_ptr<UserManager>(new UserManager());$/;"	m	class:UserManagerHelper	file:
 userManager	ThriftServer/usermanager.h	/^     static shared_ptr<UserManager> userManager;$/;"	m	class:UserManagerHelper
 userName	thrift/gen-cpp/Types_types.h	/^  std::string userName;$/;"	m	class:org::ssdut::sipesc::network::types::User
+userNameLabel	ThriftClient/ui_registdialog.h	/^    QLabel *userNameLabel;$/;"	m	class:Ui_RegistDialog
 userNameLineEdit	ThriftClient/ui_logindialog.h	/^    QLineEdit *userNameLineEdit;$/;"	m	class:Ui_LoginDialog
+userNameLineEdit	ThriftClient/ui_registdialog.h	/^    QLineEdit *userNameLineEdit;$/;"	m	class:Ui_RegistDialog
 username	ThriftClient/user.h	/^    QString username;$/;"	m	class:User
 username	thrift/gen-cpp/NetworkService.h	/^  bool username :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_getPublicUserInfo_args__isset
 username	thrift/gen-cpp/NetworkService.h	/^  bool username :1;$/;"	m	struct:org::ssdut::sipesc::network::service::_NetworkService_login_args__isset
@@ -1432,6 +1924,9 @@ write	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_postTask_resul
 write	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_refreshAuthentication_args::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_args
 write	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_refreshAuthentication_pargs::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_pargs
 write	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_refreshAuthentication_result::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_result
+write	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_regist_args::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+write	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_regist_pargs::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_pargs
+write	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_regist_result::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_result
 write	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_uploadFile_args::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_args
 write	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_uploadFile_pargs::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_pargs
 write	thrift/gen-cpp/NetworkService.cpp	/^uint32_t NetworkService_uploadFile_result::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_result
@@ -1448,6 +1943,16 @@ zip	ThriftServer/CppServer.cpp	/^  void zip() {$/;"	f	class:CalculatorHandler
 ~ClientWindow	ThriftClient/clientwindow.cpp	/^ClientWindow::~ClientWindow()$/;"	f	class:ClientWindow
 ~Data	thrift/gen-cpp/Types_types.cpp	/^Data::~Data() throw() {$/;"	f	class:org::ssdut::sipesc::network::types::Data
 ~LoginDialog	ThriftClient/logindialog.cpp	/^LoginDialog::~LoginDialog()$/;"	f	class:LoginDialog
+~MessageProvider	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider::~MessageProvider()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+~MessageProvider	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProvider::~MessageProvider()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProvider
+~MessageProviderImpl	helloworld/src/messageproviderimpl.cxx	/^MessageProviderImpl::~MessageProviderImpl(){$/;"	f	class:MessageProviderImpl
+~MessageProviderInterface	ThriftServer/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProviderInterface::~MessageProviderInterface()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+~MessageProviderInterface	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messageprovider.h	/^inline MessageProviderInterface::~MessageProviderInterface()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageProviderInterface
+~MessageReceiver	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver::~MessageReceiver()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+~MessageReceiver	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiver::~MessageReceiver()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiver
+~MessageReceiverImpl	helloworld/src/messagereceiverimpl.cxx	/^MessageReceiverImpl:: ~MessageReceiverImpl(){$/;"	f	class:MessageReceiverImpl
+~MessageReceiverInterface	ThriftServer/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiverInterface::~MessageReceiverInterface()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
+~MessageReceiverInterface	helloworld/plugin/org.ssdut.plugin.helloworld.feature.messagereceiver.h	/^inline MessageReceiverInterface::~MessageReceiverInterface()$/;"	f	class:org::ssdut::plugin::helloworld::feature::MessageReceiverInterface
 ~NetworkServiceIf	thrift/gen-cpp/NetworkService.h	/^  virtual ~NetworkServiceIf() {}$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceIf
 ~NetworkServiceIfFactory	thrift/gen-cpp/NetworkService.h	/^  virtual ~NetworkServiceIfFactory() {}$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceIfFactory
 ~NetworkServiceIfSingletonFactory	thrift/gen-cpp/NetworkService.h	/^  virtual ~NetworkServiceIfSingletonFactory() {}$/;"	f	class:org::ssdut::sipesc::network::service::NetworkServiceIfSingletonFactory
@@ -1498,11 +2003,17 @@ zip	ThriftServer/CppServer.cpp	/^  void zip() {$/;"	f	class:CalculatorHandler
 ~NetworkService_refreshAuthentication_pargs	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_refreshAuthentication_pargs::~NetworkService_refreshAuthentication_pargs() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_pargs
 ~NetworkService_refreshAuthentication_presult	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_refreshAuthentication_presult::~NetworkService_refreshAuthentication_presult() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_presult
 ~NetworkService_refreshAuthentication_result	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_refreshAuthentication_result::~NetworkService_refreshAuthentication_result() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_refreshAuthentication_result
+~NetworkService_regist_args	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_regist_args::~NetworkService_regist_args() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_args
+~NetworkService_regist_pargs	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_regist_pargs::~NetworkService_regist_pargs() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_pargs
+~NetworkService_regist_presult	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_regist_presult::~NetworkService_regist_presult() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_presult
+~NetworkService_regist_result	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_regist_result::~NetworkService_regist_result() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_regist_result
 ~NetworkService_uploadFile_args	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_uploadFile_args::~NetworkService_uploadFile_args() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_args
 ~NetworkService_uploadFile_pargs	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_uploadFile_pargs::~NetworkService_uploadFile_pargs() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_pargs
 ~NetworkService_uploadFile_presult	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_uploadFile_presult::~NetworkService_uploadFile_presult() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_presult
 ~NetworkService_uploadFile_result	thrift/gen-cpp/NetworkService.cpp	/^NetworkService_uploadFile_result::~NetworkService_uploadFile_result() throw() {$/;"	f	class:org::ssdut::sipesc::network::service::NetworkService_uploadFile_result
+~OrgSsdutPluginHelloworldPlugin	helloworld/src/org.ssdut.plugin.helloworld.cxx	/^OrgSsdutPluginHelloworldPlugin::~OrgSsdutPluginHelloworldPlugin()$/;"	f	class:OrgSsdutPluginHelloworldPlugin
 ~PublicUserInfo	thrift/gen-cpp/Types_types.cpp	/^PublicUserInfo::~PublicUserInfo() throw() {$/;"	f	class:org::ssdut::sipesc::network::types::PublicUserInfo
+~RegistDialog	ThriftClient/registdialog.cpp	/^RegistDialog::~RegistDialog()$/;"	f	class:RegistDialog
 ~ServerWindow	ThriftServer/serverwindow.cpp	/^ServerWindow::~ServerWindow()$/;"	f	class:ServerWindow
 ~SipescException	thrift/gen-cpp/Types_types.cpp	/^SipescException::~SipescException() throw() {$/;"	f	class:org::ssdut::sipesc::network::types::SipescException
 ~Task	thrift/gen-cpp/Types_types.cpp	/^Task::~Task() throw() {$/;"	f	class:org::ssdut::sipesc::network::types::Task

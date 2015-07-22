@@ -22,7 +22,9 @@ public:
     string createTokenForUser(User user);
 
     AuthenticationResult login(const std::string & username,const std::string & pwd);
-    PublicUserInfo getPublicUserInfo(const std::string & username);
+
+    void logout(const std::string& authenticationToken);
+
 private:
 
    QMap<std::string,User> users; // token-user map.

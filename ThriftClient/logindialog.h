@@ -30,6 +30,12 @@ public:
 private slots:
     void on_loginPushButton_clicked();
 
+    void on_loginPushButton_clicked(bool checked);
+
+    void on_registPushButton_clicked();
+
+    void on_registPushButton_clicked(bool checked);
+
 private:
     Ui::LoginDialog *ui;
 };

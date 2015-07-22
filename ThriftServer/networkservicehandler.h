@@ -30,7 +30,7 @@ public:
        */
       void ping( ::org::ssdut::sipesc::network::types::CallResult& _return) {
         // Your implementation goes here
-        printf("ping 123\n");
+        printf("ping\n");
       }
 
       /**
@@ -44,7 +44,7 @@ public:
 
 
           _return =   UserManagerHelper::getUserManager()->login(username,password);
-                
+
           printf("login\n");
       }
 
@@ -53,42 +53,38 @@ public:
        *
        * @param authenticationToken
        */
-      void logout(const std::string& authenticationToken) {
-        // Your implementation goes here
+      void logout(const std::string& authenticationToken) ;
 
-        printf("logout\n");
-      }
+      /**
+        *注册新用户
+        *
+        *@param newUser
+        *@param password
+        */
+     bool regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password);
+
 
       /**
        * 更新会话
        *
        * @param authenticationToken
        */
-      void refreshAuthentication( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& authenticationToken) {
-        // Your implementation goes here
-        printf("refreshAuthentication\n");
-      }
+      void refreshAuthentication( ::org::ssdut::sipesc::network::types::AuthenticationResult& _return, const std::string& authenticationToken);
 
       /**
        * 获得当前账户信息
        *
        * @param authenticationToken
        */
-      void getUser( ::org::ssdut::sipesc::network::types::User& _return, const std::string& authenticationToken) {
-        // Your implementation goes here
-        printf("getUser\n");
-      }
+      void getUser( ::org::ssdut::sipesc::network::types::User& _return, const std::string& authenticationToken) ;
+
 
       /**
        * 获得用户公开信息
        *
        * @param username
        */
-      void getPublicUserInfo( ::org::ssdut::sipesc::network::types::PublicUserInfo& _return, const std::string& username) {
-        // Your implementation goes here
-        _return =   UserManagerHelper::getUserManager()->getPublicUserInfo(username);
-        printf("getPublicUserInfo\n");
-      }
+        void getPublicUserInfo( ::org::ssdut::sipesc::network::types::PublicUserInfo& _return, const std::string& username);
 
       /**
        * 获得用户的指定任务信息。
@@ -96,20 +92,14 @@ public:
        * @param authenticationToken
        * @param taskId
        */
-      void getTask( ::org::ssdut::sipesc::network::types::Task& _return, const std::string& authenticationToken, const  ::org::ssdut::sipesc::network::types::ID taskId) {
-        // Your implementation goes here
-        printf("getTask\n");
-      }
+      void getTask( ::org::ssdut::sipesc::network::types::Task& _return, const std::string& authenticationToken, const  ::org::ssdut::sipesc::network::types::ID taskId);
 
       /**
        * 获得当前用户的所有任务。
        *
        * @param authenticationToken
        */
-      void listTasks(std::vector< ::org::ssdut::sipesc::network::types::Task> & _return, const std::string& authenticationToken) {
-        // Your implementation goes here
-        printf("listTasks\n");
-      }
+      void listTasks(std::vector< ::org::ssdut::sipesc::network::types::Task> & _return, const std::string& authenticationToken);
 
       /**
        * 提交一个任务
@@ -119,7 +109,9 @@ public:
        */
       void postTask( ::org::ssdut::sipesc::network::types::CallResult& _return, const std::string& authenticationToken, const std::string& rawCommand) {
         // Your implementation goes here
-        qDebug() << "postTask[in networkservicehandler.h]" << endl;
+        printf("postTask\n");
+
+
         qDebug()<<"before post task in thread:"<<QThread::currentThreadId();
 
         User user =  UserManagerHelper::getUserManager()->getUserByToken(authenticationToken);
@@ -129,19 +121,15 @@ public:
 //            ex.errorCode = SipescErrorCode::INVALID_AUTH;
 //            throw ex;
 //        }
-        // cout << "[user.id:" <<  user.id << "]" << " [rawCommand: " << rawCommand << "] [in networkservicehandler.h:postTsk()]" << endl;
+
         //调用任务管理器
+        int32_t taskId = TaskManagerHelper::getTaskManager()->addTask(user.id,rawCommand);
 
-        //set userid to 5
-        int32_t taskId = TaskManagerHelper::getTaskManager()->addTask(5/*user.id*/,rawCommand);
-
-        _return.message = "task post ok";
         _return.resultCode = ResultCode::Success;
 
         _return.i32Result = taskId;
 
-        // cout << "after post task[" << _return.i32Result<< "] in thread:" << QThread::currentThreadId() << endl;
-         // qDebug()<<"after post task in thread:"<<QThread::currentThreadId();
+         qDebug()<<"after post task in thread:"<<QThread::currentThreadId();
 
       }
 
@@ -156,14 +144,17 @@ public:
       int64_t uploadFile(const std::string& authenticationToken, const std::string& fileName, const int64_t size, const  ::org::ssdut::sipesc::network::types::Bytes& data) {
           // Your implementation goes here
           printf("uploadFile\n");
+          User tmp_user = UserManagerHelper::getUserManager()->getUserByToken(authenticationToken);
+          cout << tmp_user << endl;
+          QString final_filename = QString("user/")+ QString::fromStdString(tmp_user.userName) + QString("/") + QString::fromStdString(fileName);
 
+          QTextStream cout(stdout, QIODevice::WriteOnly); 
+          QFile localFile(final_filename);
 
-          QFile localFile(QString::fromStdString(fileName));
-
-          cout<<"Open file to write:"<<fileName<<"\n";
+          cout<<"Open file to write:"<<final_filename<<"\n";
 
           if(!localFile.open(QFile::WriteOnly)){
-              cout<<"Can not open file:"<<fileName<<endl;
+              cout<<"Can not open file:"<<final_filename<<endl;
               return -1;
           }
 

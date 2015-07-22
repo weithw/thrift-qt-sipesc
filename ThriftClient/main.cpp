@@ -58,10 +58,11 @@ int main(int argc, char** argv) {
     LoginDialog loginDialog;
     ClientWindow window;
 
-//   if( loginDialog.exec() != QDialog::Accepted){
-//       Globals::transport->close();
-//       return -1;
-//    }
+ if( loginDialog.exec() != QDialog::Accepted){
+
+     Globals::transport->close();
+      return -1;
+   }
 
     window.show();
     mainResult = app.exec();

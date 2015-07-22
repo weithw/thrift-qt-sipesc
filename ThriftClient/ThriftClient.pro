@@ -24,7 +24,8 @@ SOURCES += main.cpp\
        logindialog.cpp \
     clientwindow.cpp \
     commandpasrer.cpp \
-    globals.cpp
+    globals.cpp \
+    registdialog.cpp
 
 
 HEADERS  += \
@@ -36,10 +37,12 @@ HEADERS  += \
      logindialog.h \
     clientwindow.h \
     commandparser.h \
-    globals.h
+    globals.h \
+    registdialog.h
 
 
 
 FORMS    += \
     logindialog.ui \
-    clientwindow.ui
+    clientwindow.ui \
+    registdialog.ui

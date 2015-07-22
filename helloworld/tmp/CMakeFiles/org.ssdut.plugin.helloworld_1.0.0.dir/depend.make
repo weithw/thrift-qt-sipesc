@@ -157,6 +157,7 @@ CMakeFiles/org.ssdut.plugin.helloworld_1.0.0.dir/src/messagereceiverimpl.o: ../p
 CMakeFiles/org.ssdut.plugin.helloworld_1.0.0.dir/src/messagereceiverimpl.o: ../src/messagereceiverimpl.cxx
 CMakeFiles/org.ssdut.plugin.helloworld_1.0.0.dir/src/messagereceiverimpl.o: /usr/include/qt4/Qt3Support/q3cstring.h
 CMakeFiles/org.ssdut.plugin.helloworld_1.0.0.dir/src/messagereceiverimpl.o: /usr/include/qt4/Qt3Support/q3valuelist.h
+CMakeFiles/org.ssdut.plugin.helloworld_1.0.0.dir/src/messagereceiverimpl.o: /usr/include/qt4/QtCore/QStringList
 CMakeFiles/org.ssdut.plugin.helloworld_1.0.0.dir/src/messagereceiverimpl.o: /usr/include/qt4/QtCore/qalgorithms.h
 CMakeFiles/org.ssdut.plugin.helloworld_1.0.0.dir/src/messagereceiverimpl.o: /usr/include/qt4/QtCore/qatomic.h
 CMakeFiles/org.ssdut.plugin.helloworld_1.0.0.dir/src/messagereceiverimpl.o: /usr/include/qt4/QtCore/qatomic_alpha.h

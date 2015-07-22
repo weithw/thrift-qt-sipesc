@@ -1,6 +1,8 @@
 #include "logindialog.h"
 #include "ui_logindialog.h"
 #include <QMessageBox>
+#include "registdialog.h"
+#include <QtGui/QApplication>
 
 #include <thrift/Thrift.h>
 
@@ -51,5 +53,24 @@ void LoginDialog::on_loginPushButton_clicked()
     catch(TException tx){
           cout << "ERROR: " << tx.what() << endl;
     }
+
+}
+
+void LoginDialog::on_loginPushButton_clicked(bool checked)
+{
+
+}
+
+void LoginDialog::on_registPushButton_clicked()
+{
+    RegistDialog * registdialog;
+    registdialog = new RegistDialog();
+
+    registdialog->exec();
+
+}
+
+void LoginDialog::on_registPushButton_clicked(bool checked)
+{
 
 }

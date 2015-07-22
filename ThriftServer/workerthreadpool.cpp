@@ -11,7 +11,7 @@ WorkerThreadPool:: WorkerThreadPool(int initSize, int maxThreadSize): QObject(0)
     }
 
     if(initSize <= 0){
-        initSize = 20;
+        initSize = 10;
     }
 
     if(initSize > maxThreadSize){

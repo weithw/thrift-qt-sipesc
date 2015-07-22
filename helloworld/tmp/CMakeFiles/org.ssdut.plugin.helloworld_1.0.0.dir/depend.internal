@@ -158,6 +158,7 @@ CMakeFiles/org.ssdut.plugin.helloworld_1.0.0.dir/src/messagereceiverimpl.o
  /home/ghw/project/thrift-qt-sipesc/helloworld/src/messagereceiverimpl.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
+ /usr/include/qt4/QtCore/QStringList
  /usr/include/qt4/QtCore/qalgorithms.h
  /usr/include/qt4/QtCore/qatomic.h
  /usr/include/qt4/QtCore/qatomic_alpha.h

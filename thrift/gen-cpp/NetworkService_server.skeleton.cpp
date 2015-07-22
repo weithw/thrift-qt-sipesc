@@ -42,6 +42,17 @@ class NetworkServiceHandler : virtual public NetworkServiceIf {
   }
 
   /**
+   * 注册
+   * 
+   * @param newUser
+   * @param password
+   */
+  bool regist(const  ::org::ssdut::sipesc::network::types::User& newUser, const std::string& password) {
+    // Your implementation goes here
+    printf("regist\n");
+  }
+
+  /**
    * 退出登录
    * 
    * @param authenticationToken
@@ -148,7 +159,6 @@ class NetworkServiceHandler : virtual public NetworkServiceIf {
     printf("downloadFile\n");
   }
 
-  
 };
 
 int main(int argc, char **argv) {
