@@ -85,7 +85,7 @@ void  TaskParser::parse(Task *task) throw(SipescException){
     task->status = TaskStatus::RUNNING;
 
     QString taskCommand = QString::fromUtf8(task->rawCommand.data());
-    cout << "start to parse command:" << task->rawCommand << " for user[id:" << task->userId << "] [in server/TaskParser.cpp:parse()]" << endl;
+    cout << "start to parse command:" << task->rawCommand << " [taskid: " << task->taskId << "]" << " for user[id:" << task->userId << "] [in server/TaskParser.cpp:parse()]" << endl;
     QString username = DBHelper::getDatabase()->getUsernameById(task->userId);
     emit  updateStatus( "start to parse command:" + taskCommand + "[in server/TaskParser.cpp:parse()]");
 

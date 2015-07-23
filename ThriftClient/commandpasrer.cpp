@@ -65,14 +65,36 @@ void CommandParser::parse(QString rawCommand){
             Task resultOfGetTask;
             ID taskID=rawCommandList[1].toInt();
             Globals::networkService->getTask(resultOfGetTask,Globals::authResult.authenticationToken,taskID);
-            }else emit updateStatus( "ERROR!\nUsage:getTask taskID\n");
+            if (resultOfGetTask.taskId != 0) {
+                std::ostringstream os;
+                os<<resultOfGetTask;
+                QString showInfo;
+                string temp =os.str();
+                showInfo=QString::fromStdString(temp);
+                emit updateStatus( showInfo);
+            }
+            else
+                emit updateStatus( "ERROR!\nNot found task.\n");
+        }else 
+            emit updateStatus( "ERROR!\nUsage:getTask taskID\n");
 		emit updateStatus( "getTask\n");
 
      }else if(rawCommandList[0].compare("listTask",Qt::CaseInsensitive)==0){
 
-       vector<Task> taskList;
-        Globals::networkService->listTasks(taskList,Globals::authResult.authenticationToken);
-         emit updateStatus( "listTasks\n");
+        vector<Task> tasks;
+        Globals::networkService->listTasks(tasks,Globals::authResult.authenticationToken);
+        emit updateStatus( "listTasks\n");
+        vector<Task>::iterator iter;  
+        std::ostringstream os;
+        
+        QString showInfo;
+        for (iter=tasks.begin();iter!=tasks.end();iter++)  
+        {  
+            os<<*iter;
+        } 
+        string temp =os.str();
+        showInfo=QString::fromStdString(temp);
+        emit updateStatus( showInfo);
 
      }else if(rawCommandList[0].compare("call",Qt::CaseInsensitive)==0){
 		

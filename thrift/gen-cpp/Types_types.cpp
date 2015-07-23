@@ -1529,20 +1529,20 @@ Task& Task::operator=(const Task& other29) {
 std::ostream& operator<<(std::ostream& out, const Task& obj) {
   using apache::thrift::to_string;
   out << "Task(";
-  out << "taskId="; (obj.__isset.taskId ? (out << to_string(obj.taskId)) : (out << "<null>"));
-  out << ", " << "userId="; (obj.__isset.userId ? (out << to_string(obj.userId)) : (out << "<null>"));
+  out << "taskId=" <<to_string(obj.taskId); // (obj.__isset.taskId ? (out << to_string(obj.taskId)) : (out << "<null>"));
+  out << ", " << "userId=" << to_string(obj.userId);// (obj.__isset.userId ? (out << to_string(obj.userId)) : (out << "<null>"));
   out << ", " << "createdTime="; (obj.__isset.createdTime ? (out << to_string(obj.createdTime)) : (out << "<null>"));
-  out << ", " << "startedTime="; (obj.__isset.startedTime ? (out << to_string(obj.startedTime)) : (out << "<null>"));
-  out << ", " << "stopedTime="; (obj.__isset.stopedTime ? (out << to_string(obj.stopedTime)) : (out << "<null>"));
-  out << ", " << "currentTime="; (obj.__isset.currentTime ? (out << to_string(obj.currentTime)) : (out << "<null>"));
+  // out << ", " << "startedTime="; (obj.__isset.startedTime ? (out << to_string(obj.startedTime)) : (out << "<null>"));
+  // out << ", " << "stopedTime="; (obj.__isset.stopedTime ? (out << to_string(obj.stopedTime)) : (out << "<null>"));
+  // out << ", " << "currentTime="; (obj.__isset.currentTime ? (out << to_string(obj.currentTime)) : (out << "<null>"));
   out << ", " << "rawCommand=" << to_string(obj.rawCommand);
-  out << ", " << "inputFileNames="; (obj.__isset.inputFileNames ? (out << to_string(obj.inputFileNames)) : (out << "<null>"));
-  out << ", " << "outputFileNames="; (obj.__isset.outputFileNames ? (out << to_string(obj.outputFileNames)) : (out << "<null>"));
-  out << ", " << "description="; (obj.__isset.description ? (out << to_string(obj.description)) : (out << "<null>"));
-  out << ", " << "status="; (obj.__isset.status ? (out << to_string(obj.status)) : (out << "<null>"));
-  out << ", " << "statusComments="; (obj.__isset.statusComments ? (out << to_string(obj.statusComments)) : (out << "<null>"));
-  out << ", " << "previousTask="; (obj.__isset.previousTask ? (out << to_string(obj.previousTask)) : (out << "<null>"));
-  out << ", " << "nextTask="; (obj.__isset.nextTask ? (out << to_string(obj.nextTask)) : (out << "<null>"));
+  // out << ", " << "inputFileNames="; (obj.__isset.inputFileNames ? (out << to_string(obj.inputFileNames)) : (out << "<null>"));
+  // out << ", " << "outputFileNames="; (obj.__isset.outputFileNames ? (out << to_string(obj.outputFileNames)) : (out << "<null>"));
+  // out << ", " << "description="; (obj.__isset.description ? (out << to_string(obj.description)) : (out << "<null>"));
+  // out << ", " << "status="; (obj.__isset.status ? (out << to_string(obj.status)) : (out << "<null>"));
+  // out << ", " << "statusComments="; (obj.__isset.statusComments ? (out << to_string(obj.statusComments)) : (out << "<null>"));
+  // out << ", " << "previousTask="; (obj.__isset.previousTask ? (out << to_string(obj.previousTask)) : (out << "<null>"));
+  // out << ", " << "nextTask="; (obj.__isset.nextTask ? (out << to_string(obj.nextTask)) : (out << "<null>"));
   out << ")";
   return out;
 }

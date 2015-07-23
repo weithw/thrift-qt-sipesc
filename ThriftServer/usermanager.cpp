@@ -9,7 +9,6 @@ UserManager::UserManager(QObject *parent) :
 
 User UserManager::getUserByToken(string token){
     if(users.contains(token)){
-        cout<<"find user"<<endl;
         return users[token];
     }
     cout<<"user token not found"<<endl;

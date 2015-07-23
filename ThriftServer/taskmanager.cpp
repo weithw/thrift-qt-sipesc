@@ -1,5 +1,7 @@
 #include "taskmanager.h"
+#include "usermanager.h"
 #include "time.h"
+#include <sstream>
 TaskManager::TaskManager(QObject *parent) :
     QObject(parent),mWorkThreadPool(20)
 {
@@ -15,10 +17,31 @@ TaskManager::~TaskManager(){
     qDeleteAll(allTasks);
 }
 
+vector<Task> TaskManager::listUserTasks(const std::string& token) {
+    User user = UserManagerHelper::getUserManager()->getUserByToken(token);
+    ID userid = user.id;
+
+    QList<Task *> allTasks = (TaskManagerHelper::getTaskManager()->getTasks()).values();
+    vector<Task> myTasks;
+    QList<Task *>::iterator i;
+    for (i = allTasks.begin(); i != allTasks.end(); ++i) {
+        if ((*i)->userId==userid){
+            myTasks.push_back(**i);
+            cout << (*i)->userId << " " << (*i)->rawCommand << endl;
+        }
+    }
+
+    return myTasks;
+
+}
+
+QMap<ID, Task*> TaskManager::getTasks() {
+    return tasks;
+}
 
 ID TaskManager::addTask(ID userId, std::string rawCommand){
 
-     qDebug() << tr("add task:")<<QThread::currentThreadId();
+    qDebug() << tr("add task:")<<QThread::currentThreadId();
 
     Task*  task = new Task;
     task->taskId = nextTaskId;
@@ -30,6 +53,11 @@ ID TaskManager::addTask(ID userId, std::string rawCommand){
     time(&now);
     task->createdTime = now;
     task->status = TaskStatus::WAITTING;
+
+
+    cout << *task << endl;
+
+
     tasks.insert(task->taskId,task);
 
     qint32 id = task->taskId;
@@ -41,13 +69,19 @@ ID TaskManager::addTask(ID userId, std::string rawCommand){
 
 Task TaskManager::getTask(ID taskId){
 
-    Task task = *(tasks[taskId]);
-
-    time_t now;
-    time(&now);
-    task.currentTime = now;
-
-    return task;
+    if (tasks[taskId]) {
+        Task task = *(tasks[taskId]);
+        time_t now;
+        time(&now);
+        task.currentTime = now;
+        return task;
+    }
+    else {
+        cout << "Not found." << endl;
+        Task* ret = new Task();
+        return *ret;
+    }
+    
 }
 
 void TaskManager::stopAllTasks(){

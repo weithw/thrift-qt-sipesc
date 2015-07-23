@@ -24,7 +24,8 @@ public:
     ID addTask(ID userId,std::string rawCommand);
 
     Task getTask(ID taskId);
-
+    QMap<ID, Task*> getTasks();
+    vector<Task> listUserTasks(const std::string& token);
     void stopAllTasks();
 
 private:

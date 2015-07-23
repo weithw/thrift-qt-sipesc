@@ -1,0 +1,13 @@
+client
+|-interface function -|-task
+|                     |-user   
+|-qt gui
+
+
+server
+|-interface function -|-task
+|                     |-user    
+|-sipesc plugin
+|-thrift 
+|-thread pool
+|-database

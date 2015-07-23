@@ -1,6 +1,6 @@
 #include "networkservicehandler.h"
 #include"time.h"
-
+#include<sstream>
 
 void  NetworkServiceHandler::logout(const std::string& authenticationToken) {
     UserManagerHelper::getUserManager()->logout(authenticationToken);
@@ -68,8 +68,11 @@ void NetworkServiceHandler::getPublicUserInfo( ::org::ssdut::sipesc::network::ty
  */
 void NetworkServiceHandler::getTask( ::org::ssdut::sipesc::network::types::Task& _return, const std::string& authenticationToken, const  ::org::ssdut::sipesc::network::types::ID taskId) {
 
-    _return=TaskManagerHelper::getTaskManager()->getTask(taskId);
-
+    Task task = TaskManagerHelper::getTaskManager()->getTask(taskId);
+    _return.__set_taskId(task.taskId);
+    _return.__set_userId(task.userId);
+    _return.__set_rawCommand(task.rawCommand);
+    _return.__set_createdTime(task.createdTime);
 }
 
 /**
@@ -78,7 +81,20 @@ void NetworkServiceHandler::getTask( ::org::ssdut::sipesc::network::types::Task&
  * @param authenticationToken
  */
 void NetworkServiceHandler::listTasks(std::vector< ::org::ssdut::sipesc::network::types::Task> & _return, const std::string& authenticationToken) {
-  // Your implementation goes here ——TaskManger中没有相关方法
-  printf("listTasks\n");
+    // Your implementation goes here ——TaskManger中没有相关方法
+    printf("listTasks\n");
+
+    std::vector<Task> tasks = TaskManagerHelper::getTaskManager()->listUserTasks(authenticationToken);
+    vector<Task>::iterator iter;  
+    for (iter=tasks.begin();iter!=tasks.end();iter++)  
+    {  
+        Task tmp;
+        tmp.__set_taskId(iter->taskId);
+        tmp.__set_userId(iter->userId);
+        tmp.__set_rawCommand(iter->rawCommand);
+        tmp.__set_createdTime(iter->createdTime);
+        _return.push_back(tmp);
+    } 
+
 }
 
